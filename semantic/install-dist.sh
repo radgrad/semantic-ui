@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf ../../template/css/semantic-ui
-cp -r dist ../../template/css/semantic-ui
+rm -rf ../../radgrad/app/client/lib/semantic-ui
+cp -r dist ../../radgrad/app/client/lib/semantic-ui
