@@ -10,11 +10,11 @@
 @verticalMargin: @medium;
 @horizontalMargin: 0em;
 @margin: @verticalMargin @horizontalMargin;
-@background: #FFFFFF;
+@background:  #e9ebee;                               /*** #99cc99; #FFFFFF;  ***/
 @fontFamily: @pageFont;
 @itemBackground: none;
 @fontWeight: normal;
-@borderWidth: 1px;
+@borderWidth: 0px;                                       /** 1px; **/
 @border: @borderWidth solid @borderColor;
 @boxShadow: @subtleShadow;
 @borderRadius: @defaultBorderRadius;
@@ -33,7 +33,7 @@
 @itemTextColor: @textColor;
 
 /* Divider */
-@dividerSize: 1px;
+@dividerSize: 0px;                                     /** 1px; **/
 @dividerBackground: @internalBorderColor;
 
 /* Sub Menu */
@@ -197,9 +197,9 @@
 ---------------*/
 
 /* Vertical */
-@verticalBoxShadow: @boxShadow;
+@verticalBoxShadow: none;  /* @boxShadow; */
 @verticalPointerWidth: 2px;
-@verticalBackground: #FFFFFF;
+@verticalBackground: #e9ebee;                               /*** #99cc99; #FFFFFF;  ***/
 @verticalItemBackground: none;
 @verticalDividerBackground: @dividerBackground;
 
