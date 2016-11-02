@@ -13,7 +13,7 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,400|Oswald:400,700|Lobster:300,400,600,700');
 html,
 body {
   height: 100%;
@@ -158,3 +158,6 @@ input::selection {
          Site Overrides
 *******************************/
 
+.brand-font {
+  font-family: Lobster;
+}

@@ -1,3 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.brand-font {
+  font-family: Lobster;
+}
