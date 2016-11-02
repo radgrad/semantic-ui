@@ -1,3 +1,7 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@headerFont        : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@googleFontRequest : 'Open+Sans:400italic,400|Oswald:400,700|Lobster:300,400,600,700';
