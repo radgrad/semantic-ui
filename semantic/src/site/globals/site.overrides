@@ -15,6 +15,11 @@
   color: @radgradForegroundColor;
 }
 
+.radgrad-extra-bold-font {
+  font-family: 'Open Sans';
+  font-weight: 800;
+}
+
 .text.green {
   color: @green;
 }
