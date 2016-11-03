@@ -1,3 +1,20 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.radgrad-background-color {
+  background: @radgradBackgroundColor;
+}
+
+.radgrad-foreground-color {
+  color: @radgradForegroundColor;
+}
+
+.radgrad-brand-font {
+  font-family: Lobster;
+  color: @radgradForegroundColor;
+}
+
+.text.green {
+  color: @green;
+}

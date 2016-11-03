@@ -25,7 +25,7 @@
   display: flex;
   margin: 1rem 0em;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #FFFFFF;
+  background: #DBE2DB;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -1297,8 +1297,8 @@ Floated Menu / Item
 }
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
-  border-color: #21BA45 !important;
-  color: #21BA45 !important;
+  border-color: #3B8121 !important;
+  color: #3B8121 !important;
 }
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
@@ -1342,7 +1342,7 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0px solid transparent;
-  background: #1B1C1D;
+  background: #3B8121;
   box-shadow: none;
 }
 
@@ -1506,7 +1506,7 @@ Floated Menu / Item
 /* Green */
 .ui.inverted.menu .green.active.item,
 .ui.inverted.green.menu {
-  background-color: #21BA45;
+  background-color: #3B8121;
 }
 .ui.inverted.green.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);

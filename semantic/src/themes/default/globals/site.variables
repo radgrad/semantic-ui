@@ -6,15 +6,13 @@
        Fonts
 --------------------*/
 
-
-
-@fontName          : 'Open Sans';
+@fontName          : 'Lato';
 @fontSmoothing     : antialiased;
 
 @headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
-@googleFontName    : 'Open+Sans';
+@googleFontName    : @fontName;
 @importGoogleFonts : true;
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';

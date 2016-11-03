@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.4 - Site
+ * # Semantic UI 2.2.6 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -158,3 +158,16 @@ input::selection {
          Site Overrides
 *******************************/
 
+.radgrad-background-color {
+  background: #DBE2DB;
+}
+.radgrad-foreground-color {
+  color: #3B8121;
+}
+.radgrad-brand-font {
+  font-family: Lobster;
+  color: #3B8121;
+}
+.text.green {
+  color: #3B8121;
+}

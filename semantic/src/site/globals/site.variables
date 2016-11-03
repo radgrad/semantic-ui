@@ -2,6 +2,26 @@
      User Global Variables
 *******************************/
 
+/* Define our fonts. */
 @headerFont        : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @googleFontRequest : 'Open+Sans:400italic,400|Oswald:400,700|Lobster:300,400,600,700';
+
+/* Define the color palette. From: http://www.colourlovers.com/palette/4349639/Mooiemensen */
+@mermaidGreenColor : #DBE2DB;
+@gardenGreenColor  : #3B8121;
+@navyBlueColor     : #335F82;
+@fuelGoldColor     : #C3AE48;
+@awayAtSeaTurquoiseColor: #91D8DE;
+
+/* Basic background/foreground colors. Used for menus etc. */
+@radgradBackgroundColor : @mermaidGreenColor;
+@radgradForegroundColor : @gardenGreenColor;
+
+/* Inject the palette into the Semantic UI theme. */
+@green            : @gardenGreenColor;
+@lightgreen       : @mermaidGreenColor;
+@blue             : @navyBlueColor;
+@lightblue        : @awayAtSeaTurquoiseColor;
+@yellow           : @fuelGoldColor;
+

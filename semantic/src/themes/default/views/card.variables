@@ -105,9 +105,7 @@
 
 /* Description */
 @descriptionDistance: 0.5em;
-
-/* CHANGED */
-@descriptionColor: @textColor;
+@descriptionColor: rgba(0, 0, 0, 0.68);
 
 /* Content Image */
 @contentImageWidth: '';
@@ -134,8 +132,7 @@
 @extraMargin: 0em 0em;
 @extraPadding: 0.75em 1em;
 @extraBoxShadow: none;
-/* CHANGED */
-@extraColor: @textColor;
+@extraColor: @lightTextColor;
 @extraTransition: color @defaultDuration @defaultEasing;
 
 /* Extra Links */
