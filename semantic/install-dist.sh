@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x # echo on
+
 rm -rf ../../radgrad/app/client/lib/semantic-ui
 rm -rf ../../radgrad/app/public/themes
 mkdir ../../radgrad/app/client/lib/semantic-ui/
