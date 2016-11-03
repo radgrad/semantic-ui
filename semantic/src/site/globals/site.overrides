@@ -16,7 +16,7 @@
 }
 
 .radgrad-extra-bold-font {
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-weight: 800;
 }
 

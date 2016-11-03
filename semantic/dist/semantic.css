@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,800|Oswald:400,700|Lobster:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lobster:400,600,700');
 /*!
  * # Semantic UI 2.2.6 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -678,7 +678,7 @@ input::selection {
 }
 
 .radgrad-extra-bold-font {
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-weight: 800;
 }
 

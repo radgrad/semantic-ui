@@ -53,17 +53,17 @@ To update to a new release of semantic-ui, try:
 $ npm update
 ```
   
-To build a new theme and install it in the template, cd into the semantic/ directory, then invoke:
+To build a new theme and install it in the template, cd into the semantic/ directory, then invoke install-dist.sh
 
 ```
 $ cd semantic
-$ gulp build; ./install-dist.sh
+$ ./install-dist.sh
 ```
 
 Here's the expected output (elided):
 
 ```
-[~/github/radgrad/semantic-ui/semantic]-> gulp build; ./install-dist.sh 
+[~/github/radgrad/semantic-ui/semantic]-> ./install-dist.sh 
 [15:07:58] Using gulpfile ~/github/radgrad/semantic-ui/semantic/gulpfile.js
 [15:07:58] Starting 'build'...
 Building Semantic
@@ -96,7 +96,7 @@ Building assets
 + cp -r dist/themes ../../radgrad/app/public
 ```
   
-The install script copies dist/semantic.min.css and dist/semantic.min.js to ../../radgrad/app/client/lib/semantic-ui.
+The install script runs `gulp build` copies dist/semantic.min.css and dist/semantic.min.js to ../../radgrad/app/client/lib/semantic-ui.
 
 So that the icon files can be loaded, the dist/themes/ directory is copied to ../../radgrad/app/public.
 
