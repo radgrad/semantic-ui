@@ -14,14 +14,14 @@ This distribution of semantic-ui was installed using NPM. See [Semantic UI, Gett
 
 Here is a summary of the modifications; follow the links to see the latest definitions:
 
+[src/site/globals/site.overrides](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/globals/site.overrides)
+
+  * Define global CSS classes to provide theme colors and fonts for standard HTML (i.e. not semantic UI elements.)
+
 [src/site/globals/site.variables](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/globals/site.variables)
 
   * Define fonts: make Open Sans the default font and Lobster for the brand.
   * Define the color palette. Using a 'key lime pie' aesthetic. Also ICE Colors.
-  
-[src/site/globals/site.overrides](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/globals/site.overrides)
-
-  * Define classes to provide theme colors and fonts for standard HTML (i.e. not semantic UI elements.)
   
 [src/site/views/card.variables](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/views/card.variables)
 
