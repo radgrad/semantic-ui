@@ -26,7 +26,6 @@
 @yellow           : @fuelGoldColor;
 
 /* ICE Colors */
-
 @iceCompetencyColor : #e91e63; /* pink R: 233 G: 30 B: 99*/
 @iceInnovationColor : #3f51b5; /* indigo R: 63 G: 81 B: 181 */
 @iceExperienceColor : #ef6c00; /* orange darken-3 R: 239 G: 108 B: 0 */

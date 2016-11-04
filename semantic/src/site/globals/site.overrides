@@ -4,7 +4,6 @@
 
 
 /*  Background and foreground */
-
 .radgrad-background-color {
   background: @radgradBackgroundColor;
 }
@@ -14,7 +13,6 @@
 }
 
 /* Fonts */
-
 .radgrad-brand-font {
   font-family: Lobster;
   color: @radgradForegroundColor;
@@ -25,14 +23,12 @@
   font-weight: 800;
 }
 
-/* Provide text colors. */
-
+/* Text colors. */
 .text.green {
   color: @green;
 }
 
 /* ICE Font and Background Colors */
-
 .ice-competency-background {
   background: @iceCompetencyColor;
 }
