@@ -12,29 +12,26 @@ This distribution of semantic-ui was installed using NPM. See [Semantic UI, Gett
 
 ## Customizations
 
-Following the recommendations, all our customizations are made in the src/site/ directory. 
+Here is a summary of the modifications; follow the links to see the latest definitions:
 
-
-Here is a summary of the modifications:
-
-*src/site/globals/site.variables*
+[src/site/globals/site.variables](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/globals/site.variables)
 
   * Define fonts: make Open Sans the default font and Lobster for the brand.
-  * Define the color palette. Using a 'key lime pie' aesthetic. 
+  * Define the color palette. Using a 'key lime pie' aesthetic. Also ICE Colors.
   
-*src/site/globals/site.overrides*
+[src/site/globals/site.overrides](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/globals/site.overrides)
 
-  * Define classes to inject theme colors and fonts into body and other HTML element.
+  * Define classes to provide theme colors and fonts for standard HTML (i.e. not semantic UI elements.)
   
-*src/site/views/card.variables*
+[src/site/views/card.variables](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/views/card.variables)
 
   * Override @description and @extracontent color definitions so text isn't so light.
   
-*src/site/collections/menu.variables*
+[src/site/collections/menu.variables](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/collections/menu.variables)
 
   * Override menu and inverted menu background colors with our foreground/background colors.
   
-*src/site/elements/labels.variables*
+[src/site/elements/labels.variables](https://github.com/radgrad/semantic-ui/blob/master/semantic/src/site/elements/label.variables)
 
   * Override label text color to make it darker.
   
