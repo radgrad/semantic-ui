@@ -158,12 +158,16 @@ input::selection {
          Site Overrides
 *******************************/
 
+
+/*  Background and foreground */
 .radgrad-background-color {
   background: #DBE2DB;
 }
 .radgrad-foreground-color {
   color: #3B8121;
 }
+
+/* Fonts */
 .radgrad-brand-font {
   font-family: Lobster;
   color: #3B8121;
@@ -172,6 +176,28 @@ input::selection {
   font-family: 'Roboto';
   font-weight: 800;
 }
+
+/* Provide text colors. */
 .text.green {
   color: #3B8121;
+}
+
+/* ICE Font and Background Colors */
+.ice-competency-background {
+  background: #e91e63;
+}
+.ice-innovation-background {
+  background: #3f51b5;
+}
+.ice-experience-background {
+  background: #ef6c00;
+}
+.ice-competency-color {
+  color: #e91e63;
+}
+.ice-innovation-color {
+  color: #3f51b5;
+}
+.ice-experience-color {
+  color: #ef6c00;
 }

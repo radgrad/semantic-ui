@@ -2,6 +2,9 @@
          Site Overrides
 *******************************/
 
+
+/*  Background and foreground */
+
 .radgrad-background-color {
   background: @radgradBackgroundColor;
 }
@@ -9,6 +12,8 @@
 .radgrad-foreground-color {
   color: @radgradForegroundColor;
 }
+
+/* Fonts */
 
 .radgrad-brand-font {
   font-family: Lobster;
@@ -20,6 +25,35 @@
   font-weight: 800;
 }
 
+/* Provide text colors. */
+
 .text.green {
   color: @green;
 }
+
+/* ICE Font and Background Colors */
+
+.ice-competency-background {
+  background: @iceCompetencyColor;
+}
+
+.ice-innovation-background {
+  background: @iceInnovationColor
+}
+
+.ice-experience-background{
+  background: @iceExperienceColor
+}
+
+.ice-competency-color {
+  color: @iceCompetencyColor;
+}
+
+.ice-innovation-color {
+  color: @iceInnovationColor
+}
+
+.ice-experience-color {
+  color: @iceExperienceColor
+}
+
