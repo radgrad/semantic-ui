@@ -12,10 +12,13 @@
   color: @radgradForegroundColor;
 }
 
+.radgrad-grey-background {
+  background: @lightGrey
+}
+
 /* Fonts */
 .radgrad-brand-font {
-  font-family: Lobster;
-  color: @radgradForegroundColor;
+  font-family: 'Sriracha';
 }
 
 .radgrad-extra-bold-font {

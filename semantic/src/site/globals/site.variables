@@ -5,7 +5,7 @@
 /* Define our fonts. */
 @headerFont        : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@googleFontRequest : 'Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lobster:400,600,700';
+@googleFontRequest : 'Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lilita+One:400|Sriracha:400';
 
 /* Define the color palette. From: http://www.colourlovers.com/palette/4349639/Mooiemensen */
 @mermaidGreenColor : #DBE2DB;
