@@ -10,7 +10,7 @@ This also has the advantage that we can more easily keep up to date with the lat
 
 This distribution of semantic-ui was installed using NPM. See [Semantic UI, Getting Started](http://semantic-ui.com/introduction/getting-started.html) for more details.
 
-## Customizations
+## Current theme customizations
 
 Here is a summary of the modifications; follow the links to see the latest definitions:
 
@@ -49,8 +49,21 @@ To update to a new release of semantic-ui, try:
 ```
 $ npm update
 ```
+
+### Building a theme (semantic-ui repo only)
   
-To build a new theme and install it in the template, cd into the semantic/ directory, then invoke install-dist.sh
+To build a new theme, invoke:
+ 
+```
+$ cd semantic
+$ gulp build
+```
+
+This will build the theme. You can display it by retrieving the index.html file.
+
+### Build a theme (install into radgrad repo)
+
+To build a new theme *and* install it into the radgrad repository, invoke:
 
 ```
 $ cd semantic
@@ -96,5 +109,17 @@ Building assets
 The install script runs `gulp build` copies dist/semantic.min.css and dist/semantic.min.js to ../../radgrad/app/client/lib/semantic-ui.
 
 So that the icon files can be loaded, the dist/themes/ directory is copied to ../../radgrad/app/public.
+
+## How to develop RadGrad theme adjustments?
+
+Here's how we're currently developing the theme for RadGrad. It is based upon an interplay between the radgrad and semantic-ui repositories.
+
+1. Create a branch in both the radgrad and semantic-ui repositories for your theme development work.  
+
+2. Start in the semantic-ui repository. Make changes to the various semantic-ui site/ files and run `gulp build` to create the theme.  Test your changes by editing and displaying the index.html file.
+
+3. When you are ready to see how the theme looks in radgrad, run `install-dist.sh`, which builds the theme and copies it into (your branch) in the radgrad repo (which should be a sibling directory of the semantic-ui repo).
+
+4. When you feel comfortable with your changes, sync both branches to GitHub. When you're really, really comfortable with your changes, merge your branches into master.  
 
 
