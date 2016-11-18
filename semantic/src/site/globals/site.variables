@@ -14,8 +14,16 @@
 @fuelGoldColor     : #C3AE48;
 @awayAtSeaTurquoiseColor: #91D8DE;
 
+/* Define Palette - Aljon */
+@white             : #ffffff !important;
+@softGrey          : #f7f7f7;
+@radGreen          : #6FBE44;
+@radGreen-darken   : #38840F;
+@seaGreen          : #86CAB5;
+@seaGreen-darken   : #53A78E;
+
 /* Basic background/foreground colors. Used for menus etc. */
-@radgradBackgroundColor : @mermaidGreenColor;
+@radgradBackgroundColor : @softGrey;
 @radgradForegroundColor : @gardenGreenColor;
 
 /* Inject the palette into the Semantic UI theme. */
@@ -29,4 +37,3 @@
 @iceCompetencyColor : #e91e63; /* pink R: 233 G: 30 B: 99*/
 @iceInnovationColor : #3f51b5; /* indigo R: 63 G: 81 B: 181 */
 @iceExperienceColor : #ef6c00; /* orange darken-3 R: 239 G: 108 B: 0 */
-

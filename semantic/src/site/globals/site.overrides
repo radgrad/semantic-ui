@@ -31,6 +31,34 @@
   color: @green;
 }
 
+.white-text {
+  color: @white;
+}
+
+.softGrey-text {
+  color: @softGrey
+}
+
+.radGreen-text {
+  color: @radGreen
+}
+
+.seaGreen-text {
+  color: @seaGreen
+}
+
+a.seaGreen-text:hover {
+  color: @seaGreen-darken
+}
+
+a.radGreen-text:hover {
+  color: @radGreen-darken
+}
+
+.radGreen-darken-text {
+  color: @radGreen-darken
+}
+
 /* ICE Font and Background Colors */
 .ice-competency-background {
   background: @iceCompetencyColor;
@@ -56,3 +84,18 @@
   color: @iceExperienceColor
 }
 
+.white-background {
+  background-color: @white
+}
+
+.softGrey-background {
+  background-color: @softGrey
+}
+
+.radGreen-background {
+  background-color: @radGreen
+}
+
+.radGreen-darken-background {
+  background-color: @radGreen-darken
+}

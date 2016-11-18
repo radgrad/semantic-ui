@@ -161,7 +161,7 @@ input::selection {
 
 /*  Background and foreground */
 .radgrad-background-color {
-  background: #DBE2DB;
+  background: #f7f7f7;
 }
 .radgrad-foreground-color {
   color: #3B8121;
@@ -183,6 +183,27 @@ input::selection {
 .text.green {
   color: #3B8121;
 }
+.white-text {
+  color: #ffffff !important;
+}
+.softGrey-text {
+  color: #f7f7f7;
+}
+.radGreen-text {
+  color: #6FBE44;
+}
+.seaGreen-text {
+  color: #86CAB5;
+}
+a.seaGreen-text:hover {
+  color: #53A78E;
+}
+a.radGreen-text:hover {
+  color: #38840F;
+}
+.radGreen-darken-text {
+  color: #38840F;
+}
 
 /* ICE Font and Background Colors */
 .ice-competency-background {
@@ -202,4 +223,16 @@ input::selection {
 }
 .ice-experience-color {
   color: #ef6c00;
+}
+.white-background {
+  background-color: #ffffff !important;
+}
+.softGrey-background {
+  background-color: #f7f7f7;
+}
+.radGreen-background {
+  background-color: #6FBE44;
+}
+.radGreen-darken-background {
+  background-color: #38840F;
 }

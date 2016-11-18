@@ -2,5 +2,6 @@
     User Variable Overrides
 *******************************/
 
-@background: @radgradBackgroundColor;
+@background: @radGreen;
 @invertedBackground: @radgradForegroundColor;
+@secondaryPointingActiveBorderColor: @radGreen;
