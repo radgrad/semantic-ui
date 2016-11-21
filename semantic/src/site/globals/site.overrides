@@ -47,6 +47,14 @@
   color: @seaGreen
 }
 
+.seaGreen-darken-text {
+  color: @seaGreen-darken
+}
+
+.seaGreen-darken-1-text {
+  color: @seaGreen-darken-1
+}
+
 a.seaGreen-text:hover {
   color: @seaGreen-darken
 }
@@ -98,4 +106,16 @@ a.radGreen-text:hover {
 
 .radGreen-darken-background {
   background-color: @radGreen-darken
+}
+
+.seaGreen-background {
+  background-color: @seaGreen
+}
+
+.seaGreen-darken-background {
+  background-color: @seaGreen-darken
+}
+
+.seaGreen-darken-1-background {
+  background-color: @seaGreen-darken-1
 }

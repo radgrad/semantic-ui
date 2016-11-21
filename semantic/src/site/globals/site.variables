@@ -19,8 +19,9 @@
 @softGrey          : #f7f7f7;
 @radGreen          : #6FBE44;
 @radGreen-darken   : #38840F;
-@seaGreen          : #86CAB5;
-@seaGreen-darken   : #53A78E;
+@seaGreen          : #86CAB5 !important;
+@seaGreen-darken   : #53A78E !important;
+@seaGreen-darken-1 : #1B7F61 !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgradBackgroundColor : @softGrey;

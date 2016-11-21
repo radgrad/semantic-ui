@@ -708,11 +708,19 @@ input::selection {
 }
 
 .seaGreen-text {
-  color: #86CAB5;
+  color: #86CAB5 !important;
+}
+
+.seaGreen-darken-text {
+  color: #53A78E !important;
+}
+
+.seaGreen-darken-1-text {
+  color: #1B7F61 !important;
 }
 
 a.seaGreen-text:hover {
-  color: #53A78E;
+  color: #53A78E !important;
 }
 
 a.radGreen-text:hover {
@@ -763,6 +771,18 @@ a.radGreen-text:hover {
 
 .radGreen-darken-background {
   background-color: #38840F;
+}
+
+.seaGreen-background {
+  background-color: #86CAB5 !important;
+}
+
+.seaGreen-darken-background {
+  background-color: #53A78E !important;
+}
+
+.seaGreen-darken-1-background {
+  background-color: #1B7F61 !important;
 }
 /*!
  * # Semantic UI 2.2.6 - Button
@@ -12184,10 +12204,10 @@ img.ui.bordered.image {
   line-height: 1;
   vertical-align: baseline;
   margin: 0em 0.14285714em;
-  background-color: #E8E8E8;
+  background-color: #1B7F61 !important;
   background-image: none;
   padding: 0.5833em 0.833em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ffffff !important;
   text-transform: none;
   font-weight: bold;
   border: 0px solid transparent;
@@ -12329,7 +12349,7 @@ a.ui.label {
   max-width: 9999px;
   vertical-align: baseline;
   text-transform: none;
-  background: #E8E8E8;
+  background: #1B7F61 !important;
   padding: 0.5833em 0.833em 0.5833em 0.5em;
   border-radius: 0.28571429rem;
   box-shadow: none;
@@ -12406,7 +12426,7 @@ a.ui.label {
   margin: 0em;
   padding: 0em;
   text-align: center;
-  border-color: #E8E8E8;
+  border-color: #1B7F61 !important;
   width: 4em;
   height: 4em;
   z-index: 1;
@@ -12638,8 +12658,8 @@ a.ui.label {
 
 a.ui.labels .label:hover,
 a.ui.label:hover {
-  background-color: #E0E0E0;
-  border-color: #E0E0E0;
+  background-color: #53A78E !important;
+  border-color: #53A78E !important;
   background-image: none;
   color: rgba(0, 0, 0, 0.8);
 }

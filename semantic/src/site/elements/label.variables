@@ -2,4 +2,6 @@
     User Variable Overrides
 *******************************/
 
-@color: @textColor;
+@color: @white;
+@backgroundColor: @seaGreen-darken-1;
+@labelHoverBackgroundColor: @seaGreen-darken;
