@@ -1,3 +1,9 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@background: @button-background;
+@textColor: @white;
+@hoverBackgroundColor: @button-hover-background;
+@tapColor: @button-hover-background;
+@focusColor: @button-hover-background;

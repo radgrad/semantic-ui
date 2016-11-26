@@ -1,4 +1,20 @@
 /*******************************
          Site Overrides
 *******************************/
-@border-color: red;
+
+.radSecondMenu .item {
+  color: @menu-color;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+  border-bottom-width: @secondary-border-width;
+}
+
+.radSecondMenu .item:hover {
+  color: @secondary-menu-hover-color;
+}
+
+.radSecondMenu .active.item {
+  color: @secondary-menu-active-color;
+  border-bottom-color: @secondary-border-color !important;
+}

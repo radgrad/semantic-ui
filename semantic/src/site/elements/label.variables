@@ -3,5 +3,6 @@
 *******************************/
 
 @color: @white;
-@backgroundColor: @seaGreen-darken-1;
-@labelHoverBackgroundColor: @seaGreen-darken;
+@backgroundColor: @label-background;
+@labelHoverBackgroundColor: @label-hover-background;
+@labelIconColor: @label-icon-color;
