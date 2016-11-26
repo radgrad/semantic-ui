@@ -731,6 +731,14 @@ a.radGreen-text:hover {
   color: #38840F;
 }
 
+.orangeYouRad-text {
+  color: #DA7F4E !important;
+}
+
+.roseRed-text {
+  color: #CA4864 !important;
+}
+
 /* ICE Font and Background Colors */
 
 .ice-competency-background {
@@ -783,6 +791,14 @@ a.radGreen-text:hover {
 
 .seaGreen-darken-1-background {
   background-color: #1B7F61 !important;
+}
+
+.orangeYouRad-background {
+  background-color: #DA7F4E !important;
+}
+
+.roseRed-background {
+  background-color: #CA4864 !important;
 }
 /*!
  * # Semantic UI 2.2.6 - Button
