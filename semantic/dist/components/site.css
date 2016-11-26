@@ -181,7 +181,7 @@ input::selection {
 
 /* Text colors. */
 .text.green {
-  color: #3B8121;
+  color: #6FBE44;
 }
 .white-text {
   color: #ffffff !important;
@@ -193,10 +193,16 @@ input::selection {
   color: #6FBE44;
 }
 .seaGreen-text {
-  color: #86CAB5;
+  color: #86CAB5 !important;
+}
+.seaGreen-darken-text {
+  color: #53A78E !important;
+}
+.seaGreen-darken-1-text {
+  color: #1B7F61 !important;
 }
 a.seaGreen-text:hover {
-  color: #53A78E;
+  color: #53A78E !important;
 }
 a.radGreen-text:hover {
   color: #38840F;
@@ -235,4 +241,13 @@ a.radGreen-text:hover {
 }
 .radGreen-darken-background {
   background-color: #38840F;
+}
+.seaGreen-background {
+  background-color: #86CAB5 !important;
+}
+.seaGreen-darken-background {
+  background-color: #53A78E !important;
+}
+.seaGreen-darken-1-background {
+  background-color: #1B7F61 !important;
 }

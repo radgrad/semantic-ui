@@ -303,15 +303,15 @@
 
 /* Warning */
 .ui.warning.message {
-  background-color: #FFFAF3;
-  color: #573A08;
+  background-color: #d05c75 !important;
+  color: #ffffff !important;
 }
 .ui.warning.message,
 .ui.attached.warning.message {
-  box-shadow: 0px 0px 0px 1px #C9BA9B inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: #CA4864 !important;
 }
 .ui.warning.message .header {
-  color: #794B02;
+  color: #ffffff !important;
 }
 
 /* Error */
@@ -348,19 +348,19 @@
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #DB2828;
-  box-shadow: 0px 0px 0px 1px #DB2828 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #CA4864 !important;
+  box-shadow: 0px 0px 0px 1px #CA4864 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 .ui.red.message .header {
-  color: #c82121;
+  color: #c13855 !important;
 }
 .ui.orange.message {
   background-color: #FFEDDE;
-  color: #F2711C;
-  box-shadow: 0px 0px 0px 1px #F2711C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #DA7F4E !important;
+  box-shadow: 0px 0px 0px 1px #DA7F4E inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 .ui.orange.message .header {
-  color: #e7640d;
+  color: #d67039 !important;
 }
 .ui.yellow.message {
   background-color: #FFF8DB;
@@ -396,11 +396,11 @@
 }
 .ui.blue.message {
   background-color: #DFF0FF;
-  color: #335F82;
-  box-shadow: 0px 0px 0px 1px #335F82 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #53A78E !important;
+  box-shadow: 0px 0px 0px 1px #53A78E inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
 .ui.blue.message .header {
-  color: #2c5270;
+  color: #4b9680 !important;
 }
 .ui.violet.message {
   background-color: #EAE7FF;

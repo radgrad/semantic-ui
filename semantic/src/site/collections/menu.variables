@@ -2,6 +2,5 @@
     User Variable Overrides
 *******************************/
 
-@background: @radGreen;
-@invertedBackground: @radgradForegroundColor;
-@secondaryPointingActiveBorderColor: @radGreen;
+@background: @menu-background;
+@secondaryBackground: @secondary-menu-background;

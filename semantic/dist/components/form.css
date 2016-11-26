@@ -55,7 +55,7 @@
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.28571429rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #696969;
   font-size: 0.92857143em;
   font-weight: bold;
   text-transform: none;
@@ -670,7 +670,7 @@
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #DB2828;
+  color: #CA4864 !important;
 }
 .ui.form .required.fields:not(.grouped) > .field > label:after,
 .ui.form .required.fields.grouped > label:after,
@@ -743,7 +743,7 @@
 }
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.28571429rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #696969;
   font-size: 0.92857143em;
   font-weight: bold;
   text-transform: none;
@@ -979,7 +979,7 @@
   vertical-align: baseline;
   font-size: 0.92857143em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #696969;
   text-transform: none;
 }
 
@@ -1065,3 +1065,9 @@
          Site Overrides
 *******************************/
 
+label > h1,
+label > h2,
+label > h3 {
+  color: #1B7F61 !important;
+  text-transform: uppercase !important;
+}

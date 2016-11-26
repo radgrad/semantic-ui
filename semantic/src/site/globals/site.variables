@@ -17,21 +17,49 @@
 /* Define Palette - Aljon */
 @white             : #ffffff !important;
 @softGrey          : #f7f7f7;
+@dimGrey           : #696969;
 @radGreen          : #6FBE44;
 @radGreen-darken   : #38840F;
-@seaGreen          : #86CAB5;
-@seaGreen-darken   : #53A78E;
+@seaGreen          : #86CAB5 !important;
+@seaGreen-darken   : #53A78E !important;
+@seaGreen-darken-1 : #1B7F61 !important;
+@orangeYouRad      : #DA7F4E !important;
+@lightOrange       : #C05E2A !important;
+@roseRed           : #CA4864 !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgradBackgroundColor : @softGrey;
 @radgradForegroundColor : @gardenGreenColor;
 
+/* Misc Dictionary */
+@secondary-border-width: 4px !important;
+@secondary-border-color: @radGreen;
+
+/* Background Dictionary */
+@menu-background: @radGreen;
+@secondary-menu-background: @white;
+@button-background: @radGreen;
+@button-hover-background: darken(@radGreen, 5);
+@label-background: @seaGreen-darken;
+@label-hover-background: darken(@seaGreen-darken, 5);
+
+/* Text Dictionary */
+@menu-color: @seaGreen;
+@header-color: @seaGreen-darken-1;
+@secondary-menu-hover-color: @seaGreen-darken-1;
+@secondary-menu-active-color: @seaGreen-darken-1;
+@label-color: @white;
+@label-h-color: @seaGreen-darken-1;
+@label-icon-color: darken(@seaGreen-darken-1, 5);
+
 /* Inject the palette into the Semantic UI theme. */
-@green            : @gardenGreenColor;
+@green            : @radGreen;
+@red              : @roseRed;
 @lightgreen       : @mermaidGreenColor;
-@blue             : @navyBlueColor;
-@lightblue        : @awayAtSeaTurquoiseColor;
+@blue             : @seaGreen-darken;
+@lightblue        : @seaGreen;
 @yellow           : @fuelGoldColor;
+@orange           : @orangeYouRad;
 
 /* ICE Colors */
 @iceCompetencyColor : #e91e63; /* pink R: 233 G: 30 B: 99*/

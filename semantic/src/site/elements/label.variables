@@ -2,4 +2,7 @@
     User Variable Overrides
 *******************************/
 
-@color: @textColor;
+@color: @label-color;
+@backgroundColor: @label-background;
+@labelHoverBackgroundColor: @label-hover-background;
+@labelIconColor: @label-icon-color;
