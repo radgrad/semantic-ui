@@ -48,6 +48,7 @@
 @header-color: @seaGreen-darken-1;
 @secondary-menu-hover-color: @seaGreen-darken-1;
 @secondary-menu-active-color: @seaGreen-darken-1;
+@label-color: @white;
 @label-h-color: @seaGreen-darken-1;
 @label-icon-color: darken(@seaGreen-darken-1, 5);
 

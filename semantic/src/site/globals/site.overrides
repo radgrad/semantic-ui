@@ -67,6 +67,14 @@ a.radGreen-text:hover {
   color: @radGreen-darken
 }
 
+.orangeYouRad-text {
+  color: @orangeYouRad
+}
+
+.roseRed-text {
+  color: @roseRed
+}
+
 /* ICE Font and Background Colors */
 .ice-competency-background {
   background: @iceCompetencyColor;
@@ -118,4 +126,12 @@ a.radGreen-text:hover {
 
 .seaGreen-darken-1-background {
   background-color: @seaGreen-darken-1
+}
+
+.orangeYouRad-background {
+  background-color: @orangeYouRad
+}
+
+.roseRed-background {
+  background-color: @roseRed
 }
