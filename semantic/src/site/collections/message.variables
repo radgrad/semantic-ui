@@ -1,7 +1,7 @@
 /*******************************
     User Variable Overrides
 *******************************/
-@warningBackgroundColor: lighten(@roseRed, 5);
-@warningBoxShadow      : @roseRed;
-@warningTextColor      : @white;
-@warningHeaderColor    : @white;
+@warningBackgroundColor: @radgrad-warningBackgroundColor;
+@warningBoxShadow      : @radgrad-warningBoxShadow;
+@warningTextColor      : @radgrad-warningTextColor;
+@warningHeaderColor    : @radgrad-HeaderColor;

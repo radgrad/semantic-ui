@@ -2,5 +2,5 @@
     User Variable Overrides
 *******************************/
 
-@background: @menu-background;
-@secondaryBackground: @secondary-menu-background;
+@background: @radgrad-menu-background;
+@secondaryBackground: @radgrad-secondary-menu-background;

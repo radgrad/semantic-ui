@@ -5,15 +5,15 @@
 
 /*  Background and foreground */
 .radgrad-background-color {
-  background: @radgradBackgroundColor;
+  background: @radgrad-BackgroundColor;
 }
 
 .radgrad-foreground-color {
-  color: @radgradForegroundColor;
+  color: @radgrad-ForegroundColor;
 }
 
 .radgrad-grey-background {
-  background: @lightGrey
+  background: @radgrad-softGrey;
 }
 
 /* Fonts */
@@ -27,52 +27,49 @@
 }
 
 /* Text colors. */
-.text.green {
-  color: @green;
+
+.radgrad-white-text {
+  color: @radgrad-white;
 }
 
-.white-text {
-  color: @white;
+.radgrad-softGrey-text {
+  color: @radgrad-softGrey
 }
 
-.softGrey-text {
-  color: @softGrey
+.radgrad-radGreen-text {
+  color: @radgrad-radGreen
 }
 
-.radGreen-text {
-  color: @radGreen
+.radgrad-seaGreen-text {
+  color: @radgrad-seaGreen
 }
 
-.seaGreen-text {
-  color: @seaGreen
+.radgrad-seaGreen-darken-text {
+  color: @radgrad-seaGreen-darken
 }
 
-.seaGreen-darken-text {
-  color: @seaGreen-darken
+.radgrad-seaGreen-darken-1-text {
+  color: @radgrad-seaGreen-darken-1
 }
 
-.seaGreen-darken-1-text {
-  color: @seaGreen-darken-1
+a.radgrad-seaGreen-text:hover {
+  color: @radgrad-seaGreen-darken
 }
 
-a.seaGreen-text:hover {
-  color: @seaGreen-darken
+a.radgrad-radGreen-text:hover {
+  color: @radgrad-radGreen-darken
 }
 
-a.radGreen-text:hover {
-  color: @radGreen-darken
+.radgrad-radGreen-darken-text {
+  color: @radgrad-radGreen-darken
 }
 
-.radGreen-darken-text {
-  color: @radGreen-darken
+.radgrad-orangeYouRad-text {
+  color: @radgrad-orangeYouRad
 }
 
-.orangeYouRad-text {
-  color: @orangeYouRad
-}
-
-.roseRed-text {
-  color: @roseRed
+.radgrad-roseRed-text {
+  color: @radgrad-roseRed
 }
 
 /* ICE Font and Background Colors */
@@ -100,38 +97,38 @@ a.radGreen-text:hover {
   color: @iceExperienceColor
 }
 
-.white-background {
-  background-color: @white
+.radgrad-white-background {
+  background-color: @radgrad-white
 }
 
-.softGrey-background {
-  background-color: @softGrey
+.radgrad-softGrey-background {
+  background-color: @radgrad-softGrey
 }
 
-.radGreen-background {
-  background-color: @radGreen
+.radgrad-radGreen-background {
+  background-color: @radgrad-radGreen
 }
 
-.radGreen-darken-background {
-  background-color: @radGreen-darken
+.radgrad-radGreen-darken-background {
+  background-color: @radgrad-radGreen-darken
 }
 
-.seaGreen-background {
-  background-color: @seaGreen
+.radgrad-seaGreen-background {
+  background-color: @radgrad-seaGreen
 }
 
-.seaGreen-darken-background {
-  background-color: @seaGreen-darken
+.radgrad-seaGreen-darken-background {
+  background-color: @radgrad-seaGreen-darken
 }
 
-.seaGreen-darken-1-background {
-  background-color: @seaGreen-darken-1
+.radgrad-seaGreen-darken-1-background {
+  background-color: @radgrad-seaGreen-darken-1
 }
 
-.orangeYouRad-background {
-  background-color: @orangeYouRad
+.radgrad-orangeYouRad-background {
+  background-color: @radgrad-orangeYouRad
 }
 
-.roseRed-background {
-  background-color: @roseRed
+.radgrad-roseRed-background {
+  background-color: @radgrad-roseRed
 }

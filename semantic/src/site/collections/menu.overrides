@@ -2,19 +2,19 @@
          Site Overrides
 *******************************/
 
-.radSecondMenu .item {
-  color: @menu-color;
+.radgrad-second-menu .item {
+  color: @radgrad-menu-color;
   font-weight: 600 !important;
   text-transform: uppercase !important;
   font-size: 0.9rem !important;
-  border-bottom-width: @secondary-border-width;
+  border-bottom-width: @radgrad-secondary-border-width;
 }
 
-.radSecondMenu .item:hover {
-  color: @secondary-menu-hover-color;
+.radgrad-second-menu .item:hover {
+  color: @radgrad-secondary-menu-hover-color;
 }
 
-.radSecondMenu .active.item {
-  color: @secondary-menu-active-color;
-  border-bottom-color: @secondary-border-color !important;
+.radgrad-second-menu .active.item {
+  color: @radgrad-secondary-menu-active-color;
+  border-bottom-color: @radgrad-secondary-border-color !important;
 }

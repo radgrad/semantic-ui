@@ -27,7 +27,7 @@
   border: 1px solid #D4D4D5;
   line-height: 1.4285em;
   max-width: 250px;
-  background: #ffffff !important;
+  background: #FFFFFF;
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
@@ -50,7 +50,7 @@
   content: '';
   width: 0.71428571em;
   height: 0.71428571em;
-  background: #ffffff !important;
+  background: #FFFFFF;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 2;
@@ -81,7 +81,7 @@
   font-size: 1rem;
   width: 0.71428571em;
   height: 0.71428571em;
-  background: #ffffff !important;
+  background: #FFFFFF;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 2;
@@ -100,7 +100,7 @@
   border: 1px solid #D4D4D5;
   line-height: 1.4285em;
   max-width: none;
-  background: #ffffff !important;
+  background: #FFFFFF;
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
@@ -116,7 +116,7 @@
   right: auto;
   bottom: 100%;
   left: 50%;
-  background: #ffffff !important;
+  background: #FFFFFF;
   margin-left: -0.07142857rem;
   margin-bottom: 0.14285714rem;
 }
@@ -216,13 +216,13 @@
 /* Popup  */
 [data-tooltip][data-inverted]:after {
   background: #1B1C1D;
-  color: #ffffff !important;
+  color: #FFFFFF;
   border: none;
   box-shadow: none;
 }
 [data-tooltip][data-inverted]:after .header {
   background-color: none;
-  color: #ffffff !important;
+  color: #FFFFFF;
 }
 
 /*--------------
@@ -245,7 +245,7 @@
   right: auto;
   bottom: 100%;
   left: 50%;
-  background: #ffffff !important;
+  background: #FFFFFF;
   margin-left: -0.07142857rem;
   margin-bottom: 0.14285714rem;
 }
@@ -365,19 +365,19 @@
 
 /* Arrow */
 [data-position~="bottom"][data-tooltip]:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
   box-shadow: -1px -1px 0px 0px #bababc;
 }
 [data-position="left center"][data-tooltip]:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
   box-shadow: 1px -1px 0px 0px #bababc;
 }
 [data-position="right center"][data-tooltip]:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
   box-shadow: -1px 1px 0px 0px #bababc;
 }
 [data-position~="top"][data-tooltip]:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
 }
 
 /* Inverted Arrow Color */
@@ -573,14 +573,14 @@
 
 /* Arrow Color By Location */
 .ui.bottom.popup:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
 }
 .ui.right.center.popup:before,
 .ui.left.center.popup:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
 }
 .ui.top.popup:before {
-  background: #ffffff !important;
+  background: #FFFFFF;
 }
 
 /* Inverted Arrow Color */
@@ -676,13 +676,13 @@
 /* Inverted colors  */
 .ui.inverted.popup {
   background: #1B1C1D;
-  color: #ffffff !important;
+  color: #FFFFFF;
   border: none;
   box-shadow: none;
 }
 .ui.inverted.popup .header {
   background-color: none;
-  color: #ffffff !important;
+  color: #FFFFFF;
 }
 .ui.inverted.popup:before {
   background-color: #1B1C1D;

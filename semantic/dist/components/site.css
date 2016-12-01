@@ -164,10 +164,10 @@ input::selection {
   background: #f7f7f7;
 }
 .radgrad-foreground-color {
-  color: #3B8121;
+  color: #6FBE44;
 }
 .radgrad-grey-background {
-  background: #DCDDDE;
+  background: #f7f7f7;
 }
 
 /* Fonts */
@@ -180,40 +180,37 @@ input::selection {
 }
 
 /* Text colors. */
-.text.green {
-  color: #6FBE44;
-}
-.white-text {
+.radgrad-white-text {
   color: #ffffff !important;
 }
-.softGrey-text {
+.radgrad-softGrey-text {
   color: #f7f7f7;
 }
-.radGreen-text {
+.radgrad-radGreen-text {
   color: #6FBE44;
 }
-.seaGreen-text {
+.radgrad-seaGreen-text {
   color: #86CAB5 !important;
 }
-.seaGreen-darken-text {
+.radgrad-seaGreen-darken-text {
   color: #53A78E !important;
 }
-.seaGreen-darken-1-text {
+.radgrad-seaGreen-darken-1-text {
   color: #1B7F61 !important;
 }
-a.seaGreen-text:hover {
+a.radgrad-seaGreen-text:hover {
   color: #53A78E !important;
 }
-a.radGreen-text:hover {
+a.radgrad-radGreen-text:hover {
   color: #38840F;
 }
-.radGreen-darken-text {
+.radgrad-radGreen-darken-text {
   color: #38840F;
 }
-.orangeYouRad-text {
+.radgrad-orangeYouRad-text {
   color: #DA7F4E !important;
 }
-.roseRed-text {
+.radgrad-roseRed-text {
   color: #CA4864 !important;
 }
 
@@ -236,30 +233,30 @@ a.radGreen-text:hover {
 .ice-experience-color {
   color: #ef6c00;
 }
-.white-background {
+.radgrad-white-background {
   background-color: #ffffff !important;
 }
-.softGrey-background {
+.radgrad-softGrey-background {
   background-color: #f7f7f7;
 }
-.radGreen-background {
+.radgrad-radGreen-background {
   background-color: #6FBE44;
 }
-.radGreen-darken-background {
+.radgrad-radGreen-darken-background {
   background-color: #38840F;
 }
-.seaGreen-background {
+.radgrad-seaGreen-background {
   background-color: #86CAB5 !important;
 }
-.seaGreen-darken-background {
+.radgrad-seaGreen-darken-background {
   background-color: #53A78E !important;
 }
-.seaGreen-darken-1-background {
+.radgrad-seaGreen-darken-1-background {
   background-color: #1B7F61 !important;
 }
-.orangeYouRad-background {
+.radgrad-orangeYouRad-background {
   background-color: #DA7F4E !important;
 }
-.roseRed-background {
+.radgrad-roseRed-background {
   background-color: #CA4864 !important;
 }

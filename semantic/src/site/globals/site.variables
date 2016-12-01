@@ -15,51 +15,56 @@
 @awayAtSeaTurquoiseColor: #91D8DE;
 
 /* Define Palette - Aljon */
-@white             : #ffffff !important;
-@softGrey          : #f7f7f7;
-@dimGrey           : #696969;
-@radGreen          : #6FBE44;
-@radGreen-darken   : #38840F;
-@seaGreen          : #86CAB5 !important;
-@seaGreen-darken   : #53A78E !important;
-@seaGreen-darken-1 : #1B7F61 !important;
-@orangeYouRad      : #DA7F4E !important;
-@lightOrange       : #C05E2A !important;
-@roseRed           : #CA4864 !important;
+@radgrad-white             : #ffffff !important;
+@radgrad-softGrey          : #f7f7f7;
+@radgrad-dimGrey           : #696969;
+@radgrad-radGreen          : #6FBE44;
+@radgrad-radGreen-darken   : #38840F;
+@radgrad-seaGreen          : #86CAB5 !important;
+@radgrad-seaGreen-darken   : #53A78E !important;
+@radgrad-seaGreen-darken-1 : #1B7F61 !important;
+@radgrad-orangeYouRad      : #DA7F4E !important;
+@radgrad-lightOrange       : #C05E2A !important;
+@radgrad-roseRed           : #CA4864 !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
-@radgradBackgroundColor : @softGrey;
-@radgradForegroundColor : @gardenGreenColor;
+@radgrad-BackgroundColor : @radgrad-softGrey;
+@radgrad-ForegroundColor : @radgrad-radGreen;
 
 /* Misc Dictionary */
-@secondary-border-width: 4px !important;
-@secondary-border-color: @radGreen;
+@radgrad-secondary-border-width: 4px !important;
+@radgrad-secondary-border-color: @radgrad-radGreen;
+@radgrad-warningBackgroundColor: lighten(@radgrad-roseRed, 5);
+@radgrad-warningBoxShadow      : @radgrad-roseRed;
+@radgrad-warningTextColor      : @radgrad-white;
+@radgrad-HeaderColor           : @radgrad-white;
 
 /* Background Dictionary */
-@menu-background: @radGreen;
-@secondary-menu-background: @white;
-@button-background: @radGreen;
-@button-hover-background: darken(@radGreen, 5);
-@label-background: @seaGreen-darken;
-@label-hover-background: darken(@seaGreen-darken, 5);
+@radgrad-menu-background: @radgrad-radGreen;
+@radgrad-secondary-menu-background: @radgrad-white;
+@radgrad-button-background: @radgrad-radGreen;
+@radgrad-button-hover-background: darken(@radgrad-radGreen, 5);
+@radgrad-label-background: @radgrad-seaGreen-darken;
+@radgrad-label-hover-background: darken(@radgrad-seaGreen-darken, 5);
 
 /* Text Dictionary */
-@menu-color: @seaGreen;
-@header-color: @seaGreen-darken-1;
-@secondary-menu-hover-color: @seaGreen-darken-1;
-@secondary-menu-active-color: @seaGreen-darken-1;
-@label-color: @white;
-@label-h-color: @seaGreen-darken-1;
-@label-icon-color: darken(@seaGreen-darken-1, 5);
+@radgrad-menu-color: @radgrad-seaGreen;
+@radgrad-header-color: @radgrad-seaGreen-darken-1;
+@radgrad-secondary-menu-hover-color: @radgrad-seaGreen-darken-1;
+@radgrad-secondary-menu-active-color: @radgrad-seaGreen-darken-1;
+@radgrad-label-color: @radgrad-white;
+@radgrad-label-h-color: @radgrad-seaGreen-darken-1;
+@radgrad-label-icon-color: darken(@radgrad-seaGreen-darken-1, 5);
+@radgrad-button-textColor: @radgrad-white;
 
 /* Inject the palette into the Semantic UI theme. */
-@green            : @radGreen;
-@red              : @roseRed;
+@green            : @radgrad-radGreen;
+@red              : @radgrad-roseRed;
 @lightgreen       : @mermaidGreenColor;
-@blue             : @seaGreen-darken;
-@lightblue        : @seaGreen;
+@blue             : @radgrad-seaGreen-darken;
+@lightblue        : @radgrad-seaGreen;
 @yellow           : @fuelGoldColor;
-@orange           : @orangeYouRad;
+@orange           : @radgrad-orangeYouRad;
 
 /* ICE Colors */
 @iceCompetencyColor : #e91e63; /* pink R: 233 G: 30 B: 99*/
