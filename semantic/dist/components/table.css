@@ -644,10 +644,10 @@
 
 /* Olive */
 .ui.olive.table {
-  border-top: 0.2em solid #B5CC18;
+  border-top: 0.2em solid #64ad3c;
 }
 .ui.inverted.olive.table {
-  background-color: #B5CC18 !important;
+  background-color: #64ad3c !important;
   color: #FFFFFF !important;
 }
 

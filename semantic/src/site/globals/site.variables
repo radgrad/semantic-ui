@@ -42,8 +42,8 @@
 /* Background Dictionary */
 @radgrad-menu-background: @radgrad-radGreen;
 @radgrad-secondary-menu-background: @radgrad-white;
-@radgrad-button-background: @radgrad-radGreen;
-@radgrad-button-hover-background: darken(@radgrad-radGreen, 5);
+@radgrad-button-background: lighten(@radgrad-radGreen, 5);
+@radgrad-button-hover-background: @radgrad-radGreen;
 @radgrad-label-background: @radgrad-seaGreen-darken;
 @radgrad-label-hover-background: darken(@radgrad-seaGreen-darken, 5);
 
@@ -60,7 +60,8 @@
 /* Inject the palette into the Semantic UI theme. */
 @green            : @radgrad-radGreen;
 @red              : @radgrad-roseRed;
-@lightgreen       : @mermaidGreenColor;
+@lightgreen       : lighten(@radgrad-radGreen, 5);
+@olive        : darken(@radgrad-radGreen, 5);
 @blue             : @radgrad-seaGreen-darken;
 @lightblue        : @radgrad-seaGreen;
 @yellow           : @fuelGoldColor;

@@ -33,43 +33,47 @@
 }
 
 .radgrad-softGrey-text {
-  color: @radgrad-softGrey
+  color: @radgrad-softGrey;
 }
 
 .radgrad-radGreen-text {
-  color: @radgrad-radGreen
+  color: @radgrad-radGreen;
 }
 
 .radgrad-seaGreen-text {
-  color: @radgrad-seaGreen
+  color: @radgrad-seaGreen;
 }
 
 .radgrad-seaGreen-darken-text {
-  color: @radgrad-seaGreen-darken
+  color: @radgrad-seaGreen-darken;
 }
 
 .radgrad-seaGreen-darken-1-text {
-  color: @radgrad-seaGreen-darken-1
+  color: @radgrad-seaGreen-darken-1;
 }
 
 a.radgrad-seaGreen-text:hover {
-  color: @radgrad-seaGreen-darken
+  color: @radgrad-seaGreen-darken;
 }
 
 a.radgrad-radGreen-text:hover {
-  color: @radgrad-radGreen-darken
+  color: @radgrad-radGreen-darken;
 }
 
 .radgrad-radGreen-darken-text {
-  color: @radgrad-radGreen-darken
+  color: @radgrad-radGreen-darken;
 }
 
 .radgrad-orangeYouRad-text {
-  color: @radgrad-orangeYouRad
+  color: @radgrad-orangeYouRad;
 }
 
 .radgrad-roseRed-text {
-  color: @radgrad-roseRed
+  color: @radgrad-roseRed;
+}
+
+.radgrad-dimGrey-text {
+  color: @radgrad-dimGrey;
 }
 
 /* ICE Font and Background Colors */
@@ -78,11 +82,11 @@ a.radgrad-radGreen-text:hover {
 }
 
 .ice-innovation-background {
-  background: @iceInnovationColor
+  background: @iceInnovationColor;
 }
 
 .ice-experience-background{
-  background: @iceExperienceColor
+  background: @iceExperienceColor;
 }
 
 .ice-competency-color {
@@ -90,45 +94,45 @@ a.radgrad-radGreen-text:hover {
 }
 
 .ice-innovation-color {
-  color: @iceInnovationColor
+  color: @iceInnovationColor;
 }
 
 .ice-experience-color {
-  color: @iceExperienceColor
+  color: @iceExperienceColor;
 }
 
 .radgrad-white-background {
-  background-color: @radgrad-white
+  background-color: @radgrad-white !important;
 }
 
 .radgrad-softGrey-background {
-  background-color: @radgrad-softGrey
+  background-color: @radgrad-softGrey;
 }
 
 .radgrad-radGreen-background {
-  background-color: @radgrad-radGreen
+  background-color: @radgrad-radGreen;
 }
 
 .radgrad-radGreen-darken-background {
-  background-color: @radgrad-radGreen-darken
+  background-color: @radgrad-radGreen-darken;
 }
 
 .radgrad-seaGreen-background {
-  background-color: @radgrad-seaGreen
+  background-color: @radgrad-seaGreen;
 }
 
 .radgrad-seaGreen-darken-background {
-  background-color: @radgrad-seaGreen-darken
+  background-color: @radgrad-seaGreen-darken;
 }
 
 .radgrad-seaGreen-darken-1-background {
-  background-color: @radgrad-seaGreen-darken-1
+  background-color: @radgrad-seaGreen-darken-1;
 }
 
 .radgrad-orangeYouRad-background {
-  background-color: @radgrad-orangeYouRad
+  background-color: @radgrad-orangeYouRad;
 }
 
 .radgrad-roseRed-background {
-  background-color: @radgrad-roseRed
+  background-color: @radgrad-roseRed;
 }

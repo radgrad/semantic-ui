@@ -1293,8 +1293,8 @@ Floated Menu / Item
 }
 .ui.menu .olive.active.item,
 .ui.olive.menu .active.item {
-  border-color: #B5CC18 !important;
-  color: #B5CC18 !important;
+  border-color: #64ad3c !important;
+  color: #64ad3c !important;
 }
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
@@ -1495,7 +1495,7 @@ Floated Menu / Item
 /* Olive */
 .ui.inverted.menu .olive.active.item,
 .ui.inverted.olive.menu {
-  background-color: #B5CC18;
+  background-color: #64ad3c;
 }
 .ui.inverted.olive.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);

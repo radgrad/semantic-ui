@@ -632,16 +632,16 @@ a.ui.basic.yellow.label:hover {
 
 .ui.olive.labels .label,
 .ui.olive.label {
-  background-color: #B5CC18 !important;
-  border-color: #B5CC18 !important;
+  background-color: #64ad3c !important;
+  border-color: #64ad3c !important;
   color: #FFFFFF !important;
 }
 
 /* Link */
 .ui.olive.labels .label:hover,
 a.ui.olive.label:hover {
-  background-color: #a7bd0d !important;
-  border-color: #a7bd0d !important;
+  background-color: #579f30 !important;
+  border-color: #579f30 !important;
   color: #FFFFFF !important;
 }
 
@@ -659,14 +659,14 @@ a.ui.olive.label:hover {
 /* Basic */
 .ui.basic.olive.label {
   background-color: #FFFFFF !important;
-  color: #B5CC18 !important;
-  border-color: #B5CC18 !important;
+  color: #64ad3c !important;
+  border-color: #64ad3c !important;
 }
 .ui.basic.olive.labels a.label:hover,
 a.ui.basic.olive.label:hover {
   background-color: #FFFFFF !important;
-  color: #a7bd0d !important;
-  border-color: #a7bd0d !important;
+  color: #579f30 !important;
+  border-color: #579f30 !important;
 }
 
 /*--- Green ---*/

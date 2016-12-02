@@ -363,13 +363,13 @@ a.ui.inverted.orange.header:hover {
 /*--- Olive ---*/
 
 .ui.olive.header {
-  color: #B5CC18 !important;
+  color: #64ad3c !important;
 }
 a.ui.olive.header:hover {
-  color: #a7bd0d !important;
+  color: #579f30 !important;
 }
 .ui.olive.dividing.header {
-  border-bottom: 2px solid #B5CC18;
+  border-bottom: 2px solid #64ad3c;
 }
 
 /* Inverted */

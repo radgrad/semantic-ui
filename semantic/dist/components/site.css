@@ -213,6 +213,9 @@ a.radgrad-radGreen-text:hover {
 .radgrad-roseRed-text {
   color: #CA4864 !important;
 }
+.radgrad-dimGrey-text {
+  color: #696969;
+}
 
 /* ICE Font and Background Colors */
 .ice-competency-background {
