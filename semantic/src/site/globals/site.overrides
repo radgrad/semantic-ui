@@ -1,19 +1,17 @@
 /*******************************
          Site Overrides
 *******************************/
+a {
+  color: @link-color;
+}
 
+a:hover {
+  color: @link-hover-color;
+}
 
 /*  Background and foreground */
 .radgrad-background-color {
   background: @radgrad-BackgroundColor;
-}
-
-.radgrad-foreground-color {
-  color: @radgrad-ForegroundColor;
-}
-
-.radgrad-grey-background {
-  background: @radgrad-softGrey;
 }
 
 /* Fonts */
@@ -24,56 +22,6 @@
 .radgrad-extra-bold-font {
   font-family: 'Roboto';
   font-weight: 800;
-}
-
-/* Text colors. */
-
-.radgrad-white-text {
-  color: @radgrad-white;
-}
-
-.radgrad-softGrey-text {
-  color: @radgrad-softGrey;
-}
-
-.radgrad-radGreen-text {
-  color: @radgrad-radGreen;
-}
-
-.radgrad-seaGreen-text {
-  color: @radgrad-seaGreen;
-}
-
-.radgrad-seaGreen-darken-text {
-  color: @radgrad-seaGreen-darken;
-}
-
-.radgrad-seaGreen-darken-1-text {
-  color: @radgrad-seaGreen-darken-1;
-}
-
-a.radgrad-seaGreen-text:hover {
-  color: @radgrad-seaGreen-darken;
-}
-
-a.radgrad-radGreen-text:hover {
-  color: @radgrad-radGreen-darken;
-}
-
-.radgrad-radGreen-darken-text {
-  color: @radgrad-radGreen-darken;
-}
-
-.radgrad-orangeYouRad-text {
-  color: @radgrad-orangeYouRad;
-}
-
-.radgrad-roseRed-text {
-  color: @radgrad-roseRed;
-}
-
-.radgrad-dimGrey-text {
-  color: @radgrad-dimGrey;
 }
 
 /* ICE Font and Background Colors */
@@ -99,40 +47,4 @@ a.radgrad-radGreen-text:hover {
 
 .ice-experience-color {
   color: @iceExperienceColor;
-}
-
-.radgrad-white-background {
-  background-color: @radgrad-white !important;
-}
-
-.radgrad-softGrey-background {
-  background-color: @radgrad-softGrey;
-}
-
-.radgrad-radGreen-background {
-  background-color: @radgrad-radGreen;
-}
-
-.radgrad-radGreen-darken-background {
-  background-color: @radgrad-radGreen-darken;
-}
-
-.radgrad-seaGreen-background {
-  background-color: @radgrad-seaGreen;
-}
-
-.radgrad-seaGreen-darken-background {
-  background-color: @radgrad-seaGreen-darken;
-}
-
-.radgrad-seaGreen-darken-1-background {
-  background-color: @radgrad-seaGreen-darken-1;
-}
-
-.radgrad-orangeYouRad-background {
-  background-color: @radgrad-orangeYouRad;
-}
-
-.radgrad-roseRed-background {
-  background-color: @radgrad-roseRed;
 }

@@ -4,3 +4,7 @@
 
 @background: @radgrad-menu-background;
 @secondaryBackground: @radgrad-secondary-menu-background;
+
+/* Pagination */
+@paginationBackgroundColor: @radgrad-pagination-background-color;
+@paginationBorderColor: @radgrad-pagination-border-color;

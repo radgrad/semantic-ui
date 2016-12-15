@@ -664,17 +664,17 @@ input::selection {
          Site Overrides
 *******************************/
 
+a {
+  color: #38840F;
+}
+
+a:hover {
+  color: #2e6d0c;
+}
+
 /*  Background and foreground */
 
 .radgrad-background-color {
-  background: #f7f7f7;
-}
-
-.radgrad-foreground-color {
-  color: #6FBE44;
-}
-
-.radgrad-grey-background {
   background: #f7f7f7;
 }
 
@@ -687,56 +687,6 @@ input::selection {
 .radgrad-extra-bold-font {
   font-family: 'Roboto';
   font-weight: 800;
-}
-
-/* Text colors. */
-
-.radgrad-white-text {
-  color: #ffffff !important;
-}
-
-.radgrad-softGrey-text {
-  color: #f7f7f7;
-}
-
-.radgrad-radGreen-text {
-  color: #6FBE44;
-}
-
-.radgrad-seaGreen-text {
-  color: #86CAB5 !important;
-}
-
-.radgrad-seaGreen-darken-text {
-  color: #53A78E !important;
-}
-
-.radgrad-seaGreen-darken-1-text {
-  color: #1B7F61 !important;
-}
-
-a.radgrad-seaGreen-text:hover {
-  color: #53A78E !important;
-}
-
-a.radgrad-radGreen-text:hover {
-  color: #38840F;
-}
-
-.radgrad-radGreen-darken-text {
-  color: #38840F;
-}
-
-.radgrad-orangeYouRad-text {
-  color: #DA7F4E !important;
-}
-
-.radgrad-roseRed-text {
-  color: #CA4864 !important;
-}
-
-.radgrad-dimGrey-text {
-  color: #696969;
 }
 
 /* ICE Font and Background Colors */
@@ -763,42 +713,6 @@ a.radgrad-radGreen-text:hover {
 
 .ice-experience-color {
   color: #ef6c00;
-}
-
-.radgrad-white-background {
-  background-color: #ffffff !important;
-}
-
-.radgrad-softGrey-background {
-  background-color: #f7f7f7;
-}
-
-.radgrad-radGreen-background {
-  background-color: #6FBE44;
-}
-
-.radgrad-radGreen-darken-background {
-  background-color: #38840F;
-}
-
-.radgrad-seaGreen-background {
-  background-color: #86CAB5 !important;
-}
-
-.radgrad-seaGreen-darken-background {
-  background-color: #53A78E !important;
-}
-
-.radgrad-seaGreen-darken-1-background {
-  background-color: #1B7F61 !important;
-}
-
-.radgrad-orangeYouRad-background {
-  background-color: #DA7F4E !important;
-}
-
-.radgrad-roseRed-background {
-  background-color: #CA4864 !important;
 }
 /*!
  * # Semantic UI 2.2.6 - Button
@@ -20710,7 +20624,7 @@ label > h3 {
   display: flex;
   margin: 1rem 0em;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #6FBE44;
+  background: #7ec557;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -21492,6 +21406,9 @@ Floated Menu / Item
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
+  background-color: #ffffff !important;
+  border-color: #6FBE44;
+  box-shadow: none;
 }
 
 .ui.pagination.menu .item:last-child {
@@ -22930,6 +22847,54 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 
+/* FIRST MENU */
+
+.radgrad-first-menu .item {
+  color: #ffffff !important;
+}
+
+.radgrad-first-menu .icon {
+  color: #38840F;
+}
+
+/* MENU PROFILE */
+
+.radgrad-menu-profile {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.radgrad-menu-profile .radgrad-menu-icon-button {
+  font-size: 0.9rem;
+  padding: 0 0.4rem 0 0.8rem !important;
+}
+
+.radgrad-menu-profile .item > .avatar {
+  margin-right: 0.8rem;
+}
+
+.radgrad-menu-profile .login-link-text {
+  color: #ffffff !important;
+}
+
+.radgrad-menu-profile .header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.radgrad-menu-profile .label {
+  font-size: 0.75rem !important;
+  margin: 4px 0 0 0 !important;
+}
+
+/* SECOND MENU */
+
+.radgrad-second-menu {
+  border-radius: 0;
+  margin-top: 61px !important;
+  z-index: 3 !important;
+}
+
 .radgrad-second-menu .item {
   color: #86CAB5 !important;
   font-weight: 600 !important;
@@ -22945,6 +22910,47 @@ Floated Menu / Item
 .radgrad-second-menu .active.item {
   color: #1B7F61 !important;
   border-bottom-color: #6FBE44 !important;
+}
+
+/* THIRD MENU */
+
+.radgrad-third-menu {
+  border-radius: 0;
+  margin-top: 101px !important;
+  z-index: 3 !important;
+}
+
+.radgrad-third-menu .item:hover {
+  color: #696969 !important;
+  background-color: #ffffff !important;
+}
+
+/* FOURTH MENU */
+
+.radgrad-fourth-menu {
+  margin-top: 158px !important;
+  border-radius: 0;
+  background: #ffffff !important;
+  border-top: 0.1rem rgba(34, 36, 38, 0.1) solid !important;
+  z-index: 3 !important;
+}
+
+.radgrad-fourth-menu .item {
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+}
+
+.radgrad-fourth-menu .item > a {
+  color: #696969;
+}
+
+.radgrad-fourth-menu .item > a:hover {
+  color: #505050;
+}
+
+.radgrad-fourth-menu .active {
+  color: #505050;
 }
 /*!
  * # Semantic UI 2.2.6 - Message

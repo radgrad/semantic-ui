@@ -158,15 +158,15 @@ input::selection {
          Site Overrides
 *******************************/
 
+a {
+  color: #38840F;
+}
+a:hover {
+  color: #2e6d0c;
+}
 
 /*  Background and foreground */
 .radgrad-background-color {
-  background: #f7f7f7;
-}
-.radgrad-foreground-color {
-  color: #6FBE44;
-}
-.radgrad-grey-background {
   background: #f7f7f7;
 }
 
@@ -177,44 +177,6 @@ input::selection {
 .radgrad-extra-bold-font {
   font-family: 'Roboto';
   font-weight: 800;
-}
-
-/* Text colors. */
-.radgrad-white-text {
-  color: #ffffff !important;
-}
-.radgrad-softGrey-text {
-  color: #f7f7f7;
-}
-.radgrad-radGreen-text {
-  color: #6FBE44;
-}
-.radgrad-seaGreen-text {
-  color: #86CAB5 !important;
-}
-.radgrad-seaGreen-darken-text {
-  color: #53A78E !important;
-}
-.radgrad-seaGreen-darken-1-text {
-  color: #1B7F61 !important;
-}
-a.radgrad-seaGreen-text:hover {
-  color: #53A78E !important;
-}
-a.radgrad-radGreen-text:hover {
-  color: #38840F;
-}
-.radgrad-radGreen-darken-text {
-  color: #38840F;
-}
-.radgrad-orangeYouRad-text {
-  color: #DA7F4E !important;
-}
-.radgrad-roseRed-text {
-  color: #CA4864 !important;
-}
-.radgrad-dimGrey-text {
-  color: #696969;
 }
 
 /* ICE Font and Background Colors */
@@ -235,31 +197,4 @@ a.radgrad-radGreen-text:hover {
 }
 .ice-experience-color {
   color: #ef6c00;
-}
-.radgrad-white-background {
-  background-color: #ffffff !important;
-}
-.radgrad-softGrey-background {
-  background-color: #f7f7f7;
-}
-.radgrad-radGreen-background {
-  background-color: #6FBE44;
-}
-.radgrad-radGreen-darken-background {
-  background-color: #38840F;
-}
-.radgrad-seaGreen-background {
-  background-color: #86CAB5 !important;
-}
-.radgrad-seaGreen-darken-background {
-  background-color: #53A78E !important;
-}
-.radgrad-seaGreen-darken-1-background {
-  background-color: #1B7F61 !important;
-}
-.radgrad-orangeYouRad-background {
-  background-color: #DA7F4E !important;
-}
-.radgrad-roseRed-background {
-  background-color: #CA4864 !important;
 }

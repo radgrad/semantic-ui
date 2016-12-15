@@ -17,6 +17,7 @@
 /* Define Palette - Aljon */
 @radgrad-white             : #ffffff !important;
 @radgrad-softGrey          : #f7f7f7;
+@radgrad-defaultGrey       : rgba(0,0,0,.4);
 @radgrad-dimGrey           : #696969;
 @radgrad-radGreen          : #6FBE44;
 @radgrad-radGreen-darken   : #38840F;
@@ -26,6 +27,12 @@
 @radgrad-orangeYouRad      : #DA7F4E !important;
 @radgrad-lightOrange       : #C05E2A !important;
 @radgrad-roseRed           : #CA4864 !important;
+
+/** SET MENU MARGINS */
+@second-menu-margin: 61px !important;
+/* Advisor View */
+@third-menu-margin: 101px !important;
+@fourth-menu-margin: 158px !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgrad-BackgroundColor : @radgrad-softGrey;
@@ -39,23 +46,41 @@
 @radgrad-warningTextColor      : @radgrad-white;
 @radgrad-HeaderColor           : @radgrad-white;
 
-/* Background Dictionary */
-@radgrad-menu-background: @radgrad-radGreen;
+/** BACKGROUND DICTIONARY **/
+/* Menu*/
+@radgrad-menu-background: lighten(@radgrad-radGreen, 5);
 @radgrad-secondary-menu-background: @radgrad-white;
+@radgrad-secondary-hover-item-background: @radgrad-white;
+@radgrad-third-hover-item-background: @radgrad-white;
+@radgrad-fourth-menu-background: @radgrad-white;
+@radgrad-fourth-menu-border-top: 0.1rem rgba(34,36,38,.1) solid !important;
+
 @radgrad-button-background: lighten(@radgrad-radGreen, 5);
 @radgrad-button-hover-background: @radgrad-radGreen;
 @radgrad-label-background: @radgrad-seaGreen-darken;
 @radgrad-label-hover-background: darken(@radgrad-seaGreen-darken, 5);
+@radgrad-pagination-background-color: @radgrad-white;
+@radgrad-pagination-border-color: @radgrad-radGreen;
 
-/* Text Dictionary */
+/** TEXT DICTIONARY **/
+/* Link */
+@link-color: @radgrad-radGreen-darken;
+@link-hover-color: darken(@radgrad-radGreen-darken, 5);
+
+/* Menu */
 @radgrad-menu-color: @radgrad-seaGreen;
-@radgrad-header-color: @radgrad-seaGreen-darken-1;
 @radgrad-secondary-menu-hover-color: @radgrad-seaGreen-darken-1;
 @radgrad-secondary-menu-active-color: @radgrad-seaGreen-darken-1;
+@radgrad-fourth-menu-color: @radgrad-dimGrey;
+@radgrad-fourth-menu-hover-color: darken(@radgrad-dimGrey, 10);
+@radgrad-fourth-menu-active-color: darken(@radgrad-dimGrey, 10);
+
+@radgrad-header-color: @radgrad-seaGreen-darken-1;
 @radgrad-label-color: @radgrad-white;
 @radgrad-label-h-color: @radgrad-seaGreen-darken-1;
 @radgrad-label-icon-color: darken(@radgrad-seaGreen-darken-1, 5);
 @radgrad-button-textColor: @radgrad-white;
+@radgrad-hover-item-color: @radgrad-dimGrey;
 
 /* Inject the palette into the Semantic UI theme. */
 @green            : @radgrad-radGreen;

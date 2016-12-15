@@ -2,6 +2,50 @@
          Site Overrides
 *******************************/
 
+/* FIRST MENU */
+.radgrad-first-menu .item {
+  color: @radgrad-white;
+}
+
+.radgrad-first-menu .icon {
+  color: @radgrad-radGreen-darken;
+}
+
+/* MENU PROFILE */
+.radgrad-menu-profile {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.radgrad-menu-profile .radgrad-menu-icon-button {
+  font-size: 0.9rem;
+  padding: 0 0.4rem 0 0.8rem !important;
+}
+
+.radgrad-menu-profile .item > .avatar {
+  margin-right: 0.8rem;
+}
+
+.radgrad-menu-profile .login-link-text {
+  color: @radgrad-white;
+}
+
+.radgrad-menu-profile .header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.radgrad-menu-profile .label {
+  font-size: 0.75rem !important;
+  margin: 4px 0 0 0 !important;
+}
+
+/* SECOND MENU */
+.radgrad-second-menu {
+  border-radius: 0;
+  margin-top: @second-menu-margin;
+  z-index: 3 !important;
+}
 .radgrad-second-menu .item {
   color: @radgrad-menu-color;
   font-weight: 600 !important;
@@ -17,4 +61,41 @@
 .radgrad-second-menu .active.item {
   color: @radgrad-secondary-menu-active-color;
   border-bottom-color: @radgrad-secondary-border-color !important;
+}
+
+/* THIRD MENU */
+.radgrad-third-menu {
+  border-radius:0;
+  margin-top: @third-menu-margin;
+  z-index: 3 !important;
+}
+.radgrad-third-menu .item:hover {
+  color: @radgrad-hover-item-color !important;
+  background-color: @radgrad-third-hover-item-background;
+}
+
+/* FOURTH MENU */
+.radgrad-fourth-menu {
+  margin-top: @fourth-menu-margin;
+  border-radius: 0;
+  background: @radgrad-fourth-menu-background;
+  border-top: @radgrad-fourth-menu-border-top;
+  z-index: 3 !important;
+}
+.radgrad-fourth-menu .item {
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+}
+
+.radgrad-fourth-menu .item > a {
+  color: @radgrad-fourth-menu-color;
+}
+
+.radgrad-fourth-menu .item > a:hover {
+  color: @radgrad-fourth-menu-hover-color;
+}
+
+.radgrad-fourth-menu .active {
+  color: @radgrad-fourth-menu-active-color;
 }
