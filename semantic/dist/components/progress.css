@@ -238,7 +238,7 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: #ffffff !important;
+  background: #FFFFFF;
   border-radius: 0.28571429rem;
   -webkit-animation: progress-active 2s ease infinite;
           animation: progress-active 2s ease infinite;
@@ -298,7 +298,7 @@
   color: #F9FAFB;
 }
 .ui.inverted.progress > .label {
-  color: #ffffff !important;
+  color: #FFFFFF;
 }
 .ui.inverted.progress.success > .label {
   color: #6FBE44;
@@ -377,7 +377,7 @@
   background-color: #DA7F4E !important;
 }
 .ui.orange.inverted.progress .bar {
-  background-color: #C05E2A !important;
+  background-color: #FF851B;
 }
 
 /* Yellow */
@@ -390,7 +390,7 @@
 
 /* Olive */
 .ui.olive.progress .bar {
-  background-color: #B5CC18;
+  background-color: #64ad3c;
 }
 .ui.olive.inverted.progress .bar {
   background-color: #D9E778;

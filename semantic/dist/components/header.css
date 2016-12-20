@@ -295,7 +295,7 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.inverted.header {
-  color: #ffffff !important;
+  color: #FFFFFF;
 }
 .ui.inverted.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
@@ -354,22 +354,22 @@ a.ui.orange.header:hover {
 
 /* Inverted */
 .ui.inverted.orange.header {
-  color: #C05E2A !important;
+  color: #FF851B !important;
 }
 a.ui.inverted.orange.header:hover {
-  color: #b2521f !important;
+  color: #ff7701 !important;
 }
 
 /*--- Olive ---*/
 
 .ui.olive.header {
-  color: #B5CC18 !important;
+  color: #64ad3c !important;
 }
 a.ui.olive.header:hover {
-  color: #a7bd0d !important;
+  color: #579f30 !important;
 }
 .ui.olive.dividing.header {
-  border-bottom: 2px solid #B5CC18;
+  border-bottom: 2px solid #64ad3c;
 }
 
 /* Inverted */
@@ -657,7 +657,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.attached.header {
-  background: #ffffff !important;
+  background: #FFFFFF;
   padding: 0.78571429rem 1rem;
   margin-left: -1px;
   margin-right: -1px;

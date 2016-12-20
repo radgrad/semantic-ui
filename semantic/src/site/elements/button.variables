@@ -2,8 +2,8 @@
     User Variable Overrides
 *******************************/
 
-@background: @button-background;
-@textColor: @white;
-@hoverBackgroundColor: @button-hover-background;
-@tapColor: @button-hover-background;
-@focusColor: @button-hover-background;
+@background: @radgrad-button-background;
+@textColor: @radgrad-button-textColor;
+@hoverBackgroundColor: @radgrad-button-hover-background;
+@tapColor: @radgrad-button-hover-background;
+@focusColor: @radgrad-button-hover-background;
