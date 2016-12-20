@@ -63,3 +63,7 @@
   border-bottom-color: @radgrad-secondary-border-color !important;
 }
 
+.ui.vertical.text.menu {
+  background-color: @radgrad-BackgroundColor !important;
+}
+
