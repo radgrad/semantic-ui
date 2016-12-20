@@ -4,7 +4,7 @@
 
 /* FIRST MENU */
 .radgrad-first-menu .item {
-  color: @radgrad-white;
+  color: @radgrad-radGreen-darken !important;
 }
 
 .radgrad-first-menu .icon {
@@ -63,39 +63,3 @@
   border-bottom-color: @radgrad-secondary-border-color !important;
 }
 
-/* THIRD MENU */
-.radgrad-third-menu {
-  border-radius:0;
-  margin-top: @third-menu-margin;
-  z-index: 3 !important;
-}
-.radgrad-third-menu .item:hover {
-  color: @radgrad-hover-item-color !important;
-  background-color: @radgrad-third-hover-item-background;
-}
-
-/* FOURTH MENU */
-.radgrad-fourth-menu {
-  margin-top: @fourth-menu-margin;
-  border-radius: 0;
-  background: @radgrad-fourth-menu-background;
-  border-top: @radgrad-fourth-menu-border-top;
-  z-index: 3 !important;
-}
-.radgrad-fourth-menu .item {
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  font-size: 0.9rem !important;
-}
-
-.radgrad-fourth-menu .item > a {
-  color: @radgrad-fourth-menu-color;
-}
-
-.radgrad-fourth-menu .item > a:hover {
-  color: @radgrad-fourth-menu-hover-color;
-}
-
-.radgrad-fourth-menu .active {
-  color: @radgrad-fourth-menu-active-color;
-}

@@ -25,7 +25,7 @@
   display: flex;
   margin: 1rem 0em;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: #7ec557;
+  background: #ffffff !important;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -2007,7 +2007,7 @@ Floated Menu / Item
 
 /* FIRST MENU */
 .radgrad-first-menu .item {
-  color: #ffffff !important;
+  color: #38840F !important;
 }
 .radgrad-first-menu .icon {
   color: #38840F;
@@ -2056,38 +2056,4 @@ Floated Menu / Item
 .radgrad-second-menu .active.item {
   color: #1B7F61 !important;
   border-bottom-color: #6FBE44 !important;
-}
-
-/* THIRD MENU */
-.radgrad-third-menu {
-  border-radius: 0;
-  margin-top: 101px !important;
-  z-index: 3 !important;
-}
-.radgrad-third-menu .item:hover {
-  color: #696969 !important;
-  background-color: #ffffff !important;
-}
-
-/* FOURTH MENU */
-.radgrad-fourth-menu {
-  margin-top: 158px !important;
-  border-radius: 0;
-  background: #ffffff !important;
-  border-top: 0.1rem rgba(34, 36, 38, 0.1) solid !important;
-  z-index: 3 !important;
-}
-.radgrad-fourth-menu .item {
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  font-size: 0.9rem !important;
-}
-.radgrad-fourth-menu .item > a {
-  color: #696969;
-}
-.radgrad-fourth-menu .item > a:hover {
-  color: #505050;
-}
-.radgrad-fourth-menu .active {
-  color: #505050;
 }
