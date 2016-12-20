@@ -27,7 +27,7 @@
 }
 
 .radgrad-menu-profile .login-link-text {
-  color: @radgrad-white;
+  color: @radgrad-radGreen-darken;
 }
 
 .radgrad-menu-profile .header {
