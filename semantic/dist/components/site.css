@@ -30,7 +30,7 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
   font-smoothing: antialiased;
 }
 
@@ -119,32 +119,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 
 
@@ -179,22 +179,125 @@ a:hover {
   font-weight: 800;
 }
 
+/* ICE */
+.radgrad-ice-segment {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.radgrad-ice-segment > radgrad-ice-innovation,
+radgrad-ice-competency,
+radgrad-ice-experience {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ICE COLORS *
+
+.c100.lightblue .bar,
+.c100.lightblue .fill {
+  border-color: lighten(@blue, 5) !important;
+}
+
+.c100.lightblue.dark .bar,
+.c100.lightblue.dark .fill {
+  border-color: lighten(@blue, 5) !important;
+}
+
+.c100.lightblue > span {
+  color: @blue;
+}
+
+.c100.blue .bar,
+.c100.blue .fill {
+  border-color: @blue !important;
+}
+
+.c100.blue.dark .bar,
+.c100.blue.dark .fill {
+  border-color: @blue !important;
+}
+
+.c100.blue > span {
+  color: @blue;
+}
+
+.c100.lightgreen .bar,
+.c100.lightgreen .fill {
+  border-color: darkseagreen !important;
+}
+
+.c100.lightgreen.dark .bar,
+.c100.lightgreen.dark .fill {
+  border-color: darkseagreen !important;
+}
+
+.c100.lightgreen > span {
+  color:  green;
+}
+
+.c100.green .bar,
+.c100.green .fill {
+  border-color: green !important;
+}
+
+.c100.green.dark .bar,
+.c100.green.dark .fill {
+  border-color: green !important;
+}
+
+.c100.green > span {
+  color: green;
+}
+
+
+.c100.lightorange .bar,
+.c100.lightorange .fill {
+  border-color: tan !important;
+}
+
+.c100.lightorange.dark .bar,
+.c100.lightorange.dark .fill {
+  border-color: tan !important;
+}
+
+.c100.lightorange > span {
+  color: goldenrod;
+}
+
+.c100.orange .bar,
+.c100.orange .fill {
+  border-color: goldenrod !important;
+}
+
+.c100.orange.dark .bar,
+.c100.orange.dark .fill {
+  border-color: goldenrod !important;
+}
+
+.c100.orange > span {
+  color: goldenrod;
+}
+
+
+
 /* ICE Font and Background Colors */
 .ice-competency-background {
-  background: #e91e63;
+  background: #6FBE44;
 }
 .ice-innovation-background {
-  background: #3f51b5;
+  background: #53A78E !important;
 }
 .ice-experience-background {
-  background: #ef6c00;
+  background: #DA7F4E !important;
 }
 .ice-competency-color {
-  color: #e91e63;
+  color: #6FBE44;
 }
 .ice-innovation-color {
-  color: #3f51b5;
+  color: #53A78E !important;
 }
 .ice-experience-color {
-  color: #ef6c00;
+  color: #DA7F4E !important;
 }

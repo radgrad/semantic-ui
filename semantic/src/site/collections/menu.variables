@@ -4,6 +4,9 @@
 
 @background: @radgrad-menu-background;
 @secondaryBackground: @radgrad-secondary-menu-background;
+@boxShadow: None;
+@itemVerticalPadding: 0.7em; 
+@itemHorizontalPadding: 0.8em;
 
 /* Pagination */
 @paginationBackgroundColor: @radgrad-pagination-background-color;

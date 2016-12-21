@@ -24,6 +24,19 @@ a:hover {
   font-weight: 800;
 }
 
+/* ICE */
+.radgrad-ice-segment {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right :auto;
+}
+
+.radgrad-ice-segment > radgrad-ice-innovation, radgrad-ice-competency, radgrad-ice-experience {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ICE Font and Background Colors */
 .ice-competency-background {
   background: @iceCompetencyColor;

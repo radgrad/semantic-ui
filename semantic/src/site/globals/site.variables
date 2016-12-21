@@ -6,6 +6,7 @@
 @headerFont        : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @googleFontRequest : 'Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lilita+One:400|Sriracha:400';
+@textColor         : @radgrad-black;
 
 /* Define the color palette. From: http://www.colourlovers.com/palette/4349639/Mooiemensen */
 @mermaidGreenColor : #DBE2DB;
@@ -15,7 +16,8 @@
 @awayAtSeaTurquoiseColor: #91D8DE;
 
 /* Define Palette - Aljon */
-@radgrad-white             : #ffffff !important;
+@radgrad-black             : #3e3e3e;
+@radgrad-white             : #ffffff;
 @radgrad-softGrey          : #f7f7f7;
 @radgrad-defaultGrey       : rgba(0,0,0,.4);
 @radgrad-dimGrey           : #696969;
@@ -29,7 +31,7 @@
 @radgrad-roseRed           : #CA4864 !important;
 
 /** SET MENU MARGINS */
-@second-menu-margin: 61px !important;
+@second-menu-margin: 64px !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgrad-BackgroundColor : @radgrad-softGrey;
@@ -44,7 +46,7 @@
 @radgrad-HeaderColor           : @radgrad-white;
 
 /** BACKGROUND DICTIONARY **/
-/* Menu*/
+/* Menu */
 @radgrad-menu-background: @radgrad-white;
 @radgrad-secondary-menu-background: @radgrad-white;
 @radgrad-secondary-hover-item-background: @radgrad-white;
@@ -68,8 +70,8 @@
 
 @radgrad-header-color: @radgrad-seaGreen-darken-1;
 @radgrad-label-color: @radgrad-white;
-@radgrad-label-h-color: @radgrad-seaGreen-darken-1;
-@radgrad-label-icon-color: darken(@radgrad-seaGreen-darken-1, 5);
+@radgrad-label-h-color: darken(@radgrad-white, 5);
+@radgrad-label-icon-color: @radgrad-white;
 @radgrad-button-textColor: @radgrad-white;
 @radgrad-hover-item-color: @radgrad-dimGrey;
 
@@ -77,13 +79,13 @@
 @green            : @radgrad-radGreen;
 @red              : @radgrad-roseRed;
 @lightgreen       : lighten(@radgrad-radGreen, 5);
-@olive        : darken(@radgrad-radGreen, 5);
+@olive            : darken(@radgrad-radGreen, 5);
 @blue             : @radgrad-seaGreen-darken;
 @lightblue        : @radgrad-seaGreen;
 @yellow           : @fuelGoldColor;
 @orange           : @radgrad-orangeYouRad;
 
 /* ICE Colors */
-@iceCompetencyColor : #e91e63; /* pink R: 233 G: 30 B: 99*/
-@iceInnovationColor : #3f51b5; /* indigo R: 63 G: 81 B: 181 */
-@iceExperienceColor : #ef6c00; /* orange darken-3 R: 239 G: 108 B: 0 */
+@iceInnovationColor : @blue; /* indigo R: 63 G: 81 B: 181 */
+@iceCompetencyColor : @green; /* pink R: 233 G: 30 B: 99*/
+@iceExperienceColor : @orange; /* orange darken-3 R: 239 G: 108 B: 0 */

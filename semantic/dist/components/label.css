@@ -21,7 +21,7 @@
   background-color: #53A78E !important;
   background-image: none;
   padding: 0.5833em 0.833em;
-  color: #ffffff !important;
+  color: #ffffff;
   text-transform: none;
   font-weight: bold;
   border: 0px solid transparent;
@@ -62,7 +62,7 @@ a.ui.label {
 
 /* Icon */
 .ui.label > .icon {
-  color: #176a51 !important;
+  color: #ffffff;
   width: auto;
   margin: 0em 0.75em 0em 0em;
 }
@@ -435,11 +435,11 @@ a.ui.label:hover {
   background-color: #4b9680 !important;
   border-color: #4b9680 !important;
   background-image: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: #f2f2f2;
 }
 .ui.labels a.label:hover:before,
 a.ui.label:hover:before {
-  color: rgba(0, 0, 0, 0.8);
+  color: #f2f2f2;
 }
 
 /*-------------------
@@ -1045,7 +1045,7 @@ a.ui.basic.black.label:hover {
 .ui.basic.label {
   background: none #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
   box-shadow: none;
 }
 

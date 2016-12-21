@@ -4,41 +4,47 @@
 
 /* FIRST MENU */
 .radgrad-first-menu .item {
-  color: @radgrad-radGreen-darken !important;
+  color: @radgrad-radGreen !important;
 }
 
 .radgrad-first-menu .icon {
-  color: @radgrad-radGreen-darken;
+  color: @radgrad-radGreen;
+  padding: 0;
+  margin: 0 !important;
 }
 
-/* MENU PROFILE */
-.radgrad-menu-profile {
-  font-size: 0.8rem;
-  margin-top: 3px;
+/* ICE MENU */
+.radgrad-ice-menu {
+  padding-right: 0 !important;
 }
 
-.radgrad-menu-profile .radgrad-menu-icon-button {
-  font-size: 0.9rem;
-  padding: 0 0.4rem 0 0.8rem !important;
+.radgrad-ice-menu .labels {
+  border-right: 1px solid rgba(34,36,38,.15);
+  padding-right: 0.8em;
 }
 
-.radgrad-menu-profile .item > .avatar {
-  margin-right: 0.8rem;
+.radgrad-ice-menu .labels > .label {
+  margin: 0 !important;
 }
 
-.radgrad-menu-profile .login-link-text {
-  color: @radgrad-radGreen-darken;
+/* STAT MENU */
+.radgrad-stat-menu {
+  padding-left: 0px;
 }
 
-.radgrad-menu-profile .header {
+.ragrad-stat-menu .image {
+  margin-right: 10px;
+}
+
+.radgrad-stat-menu .content {
+  color: @radgrad-black;
+}
+
+.radgrad-stat-menu .content > .header {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.radgrad-menu-profile .label {
-  font-size: 0.75rem !important;
-  margin: 4px 0 0 0 !important;
-}
 
 /* SECOND MENU */
 .radgrad-second-menu {
@@ -62,4 +68,3 @@
   color: @radgrad-secondary-menu-active-color;
   border-bottom-color: @radgrad-secondary-border-color !important;
 }
-

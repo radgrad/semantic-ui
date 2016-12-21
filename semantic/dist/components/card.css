@@ -242,7 +242,7 @@
 .ui.cards > .card > .content > .description,
 .ui.card > .content > .description {
   clear: both;
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 
 /*--------------
@@ -315,7 +315,7 @@
 }
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
 }
 
 /*--------------
@@ -406,7 +406,7 @@
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #3e3e3e;
   box-shadow: none;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
