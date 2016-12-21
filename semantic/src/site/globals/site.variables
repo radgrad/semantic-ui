@@ -7,6 +7,13 @@
 @pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @googleFontRequest : 'Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lilita+One:400|Sriracha:400';
 
+/* Make breakpoints closer for laptop widths so that container widths use up more of screen */
+@mobileBreakpoint            : 320px;
+@tabletBreakpoint            : 768px;
+@computerBreakpoint          : 1200px;
+@largeMonitorBreakpoint      : 1300px;
+@widescreenMonitorBreakpoint : 1400px;
+
 /* Define the color palette. From: http://www.colourlovers.com/palette/4349639/Mooiemensen */
 @mermaidGreenColor : #DBE2DB;
 @gardenGreenColor  : #3B8121;
