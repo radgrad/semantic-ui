@@ -3,9 +3,10 @@
 *******************************/
 
 /* Define our fonts. */
-@headerFont        : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@headerFont        : 'Nunito', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@googleFontRequest : 'Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lilita+One:400|Sriracha:400';
+@googleFontRequest : 'Open+Sans:400,400italic,700,700italic,800|Roboto:400,700,800|Lilita+One:400|Sriracha:400|Nunito:300,400,600,700,900';
+@textColor         : rgba(0, 0, 0, 0.8);
 
 /* Make breakpoints closer for laptop widths so that container widths use up more of screen */
 @mobileBreakpoint            : 320px;
@@ -36,7 +37,7 @@
 @radgrad-roseRed           : #CA4864 !important;
 
 /** SET MENU MARGINS */
-@second-menu-margin: 61px !important;
+@second-menu-margin: 70px !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgrad-BackgroundColor : @radgrad-softGrey;
@@ -49,33 +50,34 @@
 @radgrad-warningBoxShadow      : @radgrad-roseRed;
 @radgrad-warningTextColor      : @radgrad-white;
 @radgrad-HeaderColor           : @radgrad-white;
+@radgrad-button-fontWeight     : 600;
 
 /** BACKGROUND DICTIONARY **/
-/* Menu*/
-@radgrad-menu-background: @radgrad-white;
-@radgrad-secondary-menu-background: @radgrad-white;
+/* Menu */
+@radgrad-menu-background                : @radgrad-white;
+@radgrad-secondary-menu-background      : @radgrad-white;
 @radgrad-secondary-hover-item-background: @radgrad-white;
 
-@radgrad-button-background: lighten(@radgrad-radGreen, 5);
-@radgrad-button-hover-background: @radgrad-radGreen;
-@radgrad-label-background: @radgrad-seaGreen-darken;
-@radgrad-label-hover-background: darken(@radgrad-seaGreen-darken, 5);
+@radgrad-button-background          : lighten(@radgrad-radGreen, 5);
+@radgrad-button-hover-background    : @radgrad-radGreen;
+@radgrad-label-background           : @radgrad-seaGreen-darken;
+@radgrad-label-hover-background     : darken(@radgrad-seaGreen-darken, 5);
 @radgrad-pagination-background-color: @radgrad-white;
-@radgrad-pagination-border-color: @radgrad-radGreen;
+@radgrad-pagination-border-color    : @radgrad-radGreen;
 
 /** TEXT DICTIONARY **/
 /* Link */
-@link-color: @radgrad-radGreen-darken;
+@link-color      : @radgrad-radGreen-darken;
 @link-hover-color: darken(@radgrad-radGreen-darken, 5);
 
 /* Menu */
-@radgrad-menu-color: @radgrad-seaGreen;
-@radgrad-secondary-menu-hover-color: @radgrad-seaGreen-darken-1;
+@radgrad-menu-color                 : @radgrad-seaGreen;
+@radgrad-secondary-menu-hover-color : @radgrad-seaGreen-darken-1;
 @radgrad-secondary-menu-active-color: @radgrad-seaGreen-darken-1;
 
-@radgrad-header-color: @radgrad-seaGreen-darken-1;
-@radgrad-label-color: @radgrad-white;
-@radgrad-label-h-color: @radgrad-seaGreen-darken-1;
+@radgrad-header-color    : @radgrad-seaGreen-darken-1;
+@radgrad-label-color     : @radgrad-white;
+@radgrad-label-h-color   : @radgrad-seaGreen-darken-1;
 @radgrad-label-icon-color: darken(@radgrad-seaGreen-darken-1, 5);
 @radgrad-button-textColor: @radgrad-white;
 @radgrad-hover-item-color: @radgrad-dimGrey;
@@ -84,13 +86,27 @@
 @green            : @radgrad-radGreen;
 @red              : @radgrad-roseRed;
 @lightgreen       : lighten(@radgrad-radGreen, 5);
-@olive        : darken(@radgrad-radGreen, 5);
+@olive            : darken(@radgrad-radGreen, 5);
 @blue             : @radgrad-seaGreen-darken;
 @lightblue        : @radgrad-seaGreen;
 @yellow           : @fuelGoldColor;
 @orange           : @radgrad-orangeYouRad;
 
-/* ICE Colors */
-@iceCompetencyColor : #e91e63; /* pink R: 233 G: 30 B: 99*/
-@iceInnovationColor : #3f51b5; /* indigo R: 63 G: 81 B: 181 */
-@iceExperienceColor : #ef6c00; /* orange darken-3 R: 239 G: 108 B: 0 */
+/** ICE Colors **/
+/* Earned
+@iceInnovationColor : darken(@radgrad-seaGreen, 20);
+@iceCompetencyColor : darken(@radgrad-radGreen, 10);
+@iceExperienceColor : darken(@radgrad-orangeYouRad, 10);
+*/
+@iceInnovationColor : #52A724;
+@iceCompetencyColor : #1C7F61;
+@iceExperienceColor : #C05E2A;
+
+/* Projected
+@iceInnovationProjColor : lighten(@radgrad-seaGreen, 10);
+@iceCompetencyProjColor : lighten(@radgrad-radGreen, 10);
+@iceExperienceProjColor : lighten(@radgrad-orangeYouRad, 10);
+*/
+@iceInnovationProjColor : #94DC6D;
+@iceCompetencyProjColor : #53A78E;
+@iceExperienceProjColor : #FDAA7D;
