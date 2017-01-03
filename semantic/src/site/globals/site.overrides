@@ -20,7 +20,7 @@ a:hover {
 }
 
 .radgrad-extra-bold-font {
-  font-family: 'Nunito';
+  font-family: 'Montserrat';
   font-weight: 700;
 }
 
@@ -73,6 +73,17 @@ a:hover {
   font-size: 50px;
 }
 
+.radgrad-ice.degree {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.radgrad-ice.degree .radgrad-ice-circle {
+  font-size: 50px;
+}
+
 .radgrad-ice > .radgrad-ice-circle {
  text-align: center;
  display: block;
@@ -99,6 +110,15 @@ a:hover {
   font-size: .40em;
 }
 
+.radgrad-ice.degree .radgrad-ice-stat {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 15px;
+  width: 50px;
+  font-size: .40em;
+}
+
 .radgrad-ice-stat hr {
   height: 10px;
   visibility: hidden;
@@ -117,6 +137,16 @@ a:hover {
   margin-top: 30px;
 }
 
+.radgrad-ice.degree .radgrad-earn-innov .radgrad-ice-stat > span {
+   color: @iceInnovationColor !important;
+   font-weight: bold;
+}
+
+.radgrad-ice.degree .radgrad-proj-innov .radgrad-ice-stat > span {
+  color: @iceInnovationProjColor;
+  font-weight: normal;
+}
+
 /* Competency Font Style */
 .radgrad-proj-comp span:nth-of-type(1) {
   color: @iceCompetencyColor;
@@ -128,6 +158,16 @@ a:hover {
   margin-top: 30px;
 }
 
+.radgrad-ice.degree .radgrad-earn-comp .radgrad-ice-stat > span {
+  color: @iceCompetencyColor;
+  font-weight: bold;
+}
+
+.radgrad-ice.degree .radgrad-proj-comp .radgrad-ice-stat > span {
+  color: @iceCompetencyProjColor;
+  font-weight: normal;
+}
+
 /* Experience Font Style */
 .radgrad-proj-exp span:nth-of-type(1) {
   color: @iceExperienceColor;
@@ -137,6 +177,16 @@ a:hover {
 .radgrad-proj-exp span:nth-of-type(2) {
   color: @iceExperienceProjColor;
   margin-top: 30px;
+}
+
+.radgrad-ice.degree .radgrad-earn-exp .radgrad-ice-stat > span {
+  color: @iceExperienceColor;
+  font-weight: bold;
+}
+
+.radgrad-ice.degree .radgrad-proj-exp .radgrad-ice-stat > span {
+  color: @iceExperienceProjColor;
+  font-weight: normal;
 }
 
 .radgrad-ice .radgrad-ice-circle:nth-of-type(2) {

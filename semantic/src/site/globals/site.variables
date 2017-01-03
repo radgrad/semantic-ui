@@ -37,7 +37,7 @@
 @radgrad-roseRed           : #CA4864 !important;
 
 /** SET MENU MARGINS */
-@second-menu-margin: 70px !important;
+@second-menu-margin: 75px !important;
 
 /* Basic background/foreground colors. Used for menus etc. */
 @radgrad-BackgroundColor : @radgrad-softGrey;
