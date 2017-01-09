@@ -87,7 +87,7 @@
   background: none;
   padding: 0.92857143em 1.14285714em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
   font-weight: normal;
   -webkit-transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
   transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
@@ -236,7 +236,7 @@
   font-size: 1em !important;
   padding: 0.78571429em 1.14285714em !important;
   background: transparent !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
   text-transform: none !important;
   font-weight: normal !important;
   box-shadow: none !important;
@@ -618,7 +618,7 @@ Floated Menu / Item
   border-right: 1px solid transparent;
   border-top: 2px solid transparent;
   padding: 0.92857143em 1.42857143em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
 }
 .ui.tabular.menu .item:before {
   display: none;
@@ -943,7 +943,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .link.item:hover,
 .ui.secondary.pointing.menu a.item:hover {
   background-color: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* Pressed */
@@ -2006,16 +2006,19 @@ Floated Menu / Item
 
 
 /* FIRST MENU */
+.radgrad-first-menu {
+  box-shadow: none !important;
+}
 .radgrad-first-menu .item {
-  color: #38840F !important;
+  color: #696969 !important;
 }
 .radgrad-first-menu .icon {
-  color: #38840F;
+  color: #696969;
 }
 
 /* MENU PROFILE */
 .radgrad-menu-profile {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   margin-top: 3px;
 }
 .radgrad-menu-profile .radgrad-menu-icon-button {
@@ -2033,14 +2036,18 @@ Floated Menu / Item
   font-weight: bold;
 }
 .radgrad-menu-profile .label {
-  font-size: 0.75rem !important;
+  font-size: 0.8rem !important;
   margin: 4px 0 0 0 !important;
+}
+.radgrad-menu-profile .radgrad-level {
+  font-size: 1.2em !important;
+  margin: 0 !important;
 }
 
 /* SECOND MENU */
 .radgrad-second-menu {
   border-radius: 0;
-  margin-top: 61px !important;
+  margin-top: 75px !important;
   z-index: 3 !important;
 }
 .radgrad-second-menu .item {

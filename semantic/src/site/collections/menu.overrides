@@ -3,17 +3,21 @@
 *******************************/
 
 /* FIRST MENU */
+.radgrad-first-menu {
+  box-shadow: none !important;
+}
+
 .radgrad-first-menu .item {
-  color: @radgrad-radGreen-darken !important;
+  color: @radgrad-dimGrey !important;
 }
 
 .radgrad-first-menu .icon {
-  color: @radgrad-radGreen-darken;
+  color: @radgrad-dimGrey;
 }
 
 /* MENU PROFILE */
 .radgrad-menu-profile {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   margin-top: 3px;
 }
 
@@ -36,8 +40,13 @@
 }
 
 .radgrad-menu-profile .label {
-  font-size: 0.75rem !important;
+  font-size: 0.8rem !important;
   margin: 4px 0 0 0 !important;
+}
+
+.radgrad-menu-profile .radgrad-level {
+  font-size: 1.2em !important;
+  margin: 0 !important;
 }
 
 /* SECOND MENU */
@@ -66,4 +75,3 @@
 .ui.vertical.text.menu {
   background-color: @radgrad-BackgroundColor !important;
 }
-
