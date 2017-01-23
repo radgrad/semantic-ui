@@ -1,12 +1,19 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* Miscellaneous */
 a {
   color: @link-color;
+  font-weight: bold;
 }
 
 a:hover {
   color: @link-hover-color;
+}
+
+.radgrad-help {
+  padding: 14px 14px 0px 14px !important;
 }
 
 /*  Background and foreground */

@@ -4,3 +4,4 @@
 
 @descriptionColor: @textColor;
 @extraColor: @textColor;
+@actionOpacity: 1;

@@ -158,11 +158,17 @@ input::selection {
          Site Overrides
 *******************************/
 
+
+/* Miscellaneous */
 a {
   color: #38840F;
+  font-weight: bold;
 }
 a:hover {
   color: #2e6d0c;
+}
+.radgrad-help {
+  padding: 14px 14px 0px 14px !important;
 }
 
 /*  Background and foreground */

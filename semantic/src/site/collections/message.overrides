@@ -1,3 +1,18 @@
 /*******************************
         Site Overrides
 *******************************/
+.radgrad-help-title .icon.dropdown {
+  color: #409178 !important;
+}
+
+.radgrad-help-title span {
+  font-size: 0.9rem;
+  color: #409178;
+  text-transform: uppercase;
+}
+
+.radgrad-help-title .icon.help {
+  color: #409178;
+  position: relative;
+  bottom: 2.5px;
+}

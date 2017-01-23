@@ -62,7 +62,7 @@ a.ui.label {
 
 /* Icon */
 .ui.label > .icon {
-  color: #176a51 !important;
+  color: #ffffff !important;
   width: auto;
   margin: 0em 0.75em 0em 0em;
 }
@@ -591,16 +591,16 @@ a.ui.basic.orange.label:hover {
 
 .ui.yellow.labels .label,
 .ui.yellow.label {
-  background-color: #C3AE48 !important;
-  border-color: #C3AE48 !important;
+  background-color: #CEB23F !important;
+  border-color: #CEB23F !important;
   color: #FFFFFF !important;
 }
 
 /* Link */
 .ui.yellow.labels .label:hover,
 a.ui.yellow.label:hover {
-  background-color: #bca536 !important;
-  border-color: #bca536 !important;
+  background-color: #c9aa2a !important;
+  border-color: #c9aa2a !important;
   color: #FFFFFF !important;
 }
 
@@ -612,20 +612,20 @@ a.ui.yellow.label:hover {
 
 /* Ribbon */
 .ui.yellow.ribbon.label {
-  border-color: #a39035 !important;
+  border-color: #ae942c !important;
 }
 
 /* Basic */
 .ui.basic.yellow.label {
   background-color: #FFFFFF !important;
-  color: #C3AE48 !important;
-  border-color: #C3AE48 !important;
+  color: #CEB23F !important;
+  border-color: #CEB23F !important;
 }
 .ui.basic.yellow.labels a.label:hover,
 a.ui.basic.yellow.label:hover {
   background-color: #FFFFFF !important;
-  color: #bca536 !important;
-  border-color: #bca536 !important;
+  color: #c9aa2a !important;
+  border-color: #c9aa2a !important;
 }
 
 /*--- Olive ---*/
@@ -960,16 +960,16 @@ a.ui.basic.brown.label:hover {
 
 .ui.grey.labels .label,
 .ui.grey.label {
-  background-color: #767676 !important;
-  border-color: #767676 !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
   color: #FFFFFF !important;
 }
 
 /* Link */
 .ui.grey.labels .label:hover,
 a.ui.grey.label:hover {
-  background-color: #838383 !important;
-  border-color: #838383 !important;
+  background-color: rgba(13, 13, 13, 0.4) !important;
+  border-color: rgba(13, 13, 13, 0.4) !important;
   color: #FFFFFF !important;
 }
 
@@ -987,14 +987,14 @@ a.ui.grey.label:hover {
 /* Basic */
 .ui.basic.grey.label {
   background-color: #FFFFFF !important;
-  color: #767676 !important;
-  border-color: #767676 !important;
+  color: rgba(0, 0, 0, 0.4) !important;
+  border-color: rgba(0, 0, 0, 0.4) !important;
 }
 .ui.basic.grey.labels a.label:hover,
 a.ui.basic.grey.label:hover {
   background-color: #FFFFFF !important;
-  color: #838383 !important;
-  border-color: #838383 !important;
+  color: rgba(13, 13, 13, 0.4) !important;
+  border-color: rgba(13, 13, 13, 0.4) !important;
 }
 
 /*--- Black ---*/

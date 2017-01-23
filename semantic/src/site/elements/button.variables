@@ -8,3 +8,6 @@
 @tapColor: @radgrad-button-hover-background;
 @focusColor: @radgrad-button-hover-background;
 @basicFontWeight: @radgrad-button-fontWeight;
+@primaryColor: @radgrad-primary-button-background;
+@secondaryColor: @radgrad-secondary-button-background;
+@secondaryColorHover: @radgrad-secondary-button-hover-background;

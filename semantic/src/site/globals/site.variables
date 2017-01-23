@@ -25,6 +25,7 @@
 /* Define Palette - Aljon */
 @radgrad-white             : #ffffff !important;
 @radgrad-softGrey          : #f7f7f7;
+@radgrad-yellow            : #CEB23F;
 @radgrad-defaultGrey       : rgba(0,0,0,.4);
 @radgrad-dimGrey           : #696969;
 @radgrad-radGreen          : #6FBE44;
@@ -58,12 +59,15 @@
 @radgrad-secondary-menu-background      : @radgrad-white;
 @radgrad-secondary-hover-item-background: @radgrad-white;
 
-@radgrad-button-background          : lighten(@radgrad-radGreen, 5);
-@radgrad-button-hover-background    : @radgrad-radGreen;
-@radgrad-label-background           : @radgrad-seaGreen-darken;
-@radgrad-label-hover-background     : darken(@radgrad-seaGreen-darken, 5);
-@radgrad-pagination-background-color: @radgrad-white;
-@radgrad-pagination-border-color    : @radgrad-radGreen;
+@radgrad-button-background          :       lighten(@radgrad-radGreen, 5);
+@radgrad-button-hover-background    :       @radgrad-radGreen;
+@radgrad-primary-button-background  :       @radgrad-radGreen;
+@radgrad-secondary-button-background:       darken(@radgrad-radGreen, 5);
+@radgrad-secondary-button-hover-background: darken(@radgrad-radGreen, 10);
+@radgrad-label-background           :       @radgrad-seaGreen-darken;
+@radgrad-label-hover-background     :       darken(@radgrad-seaGreen-darken, 5);
+@radgrad-pagination-background-color:       @radgrad-white;
+@radgrad-pagination-border-color    :       @radgrad-radGreen;
 
 /** TEXT DICTIONARY **/
 /* Link */
@@ -78,9 +82,9 @@
 @radgrad-header-color    : @radgrad-seaGreen-darken-1;
 @radgrad-label-color     : @radgrad-white;
 @radgrad-label-h-color   : @radgrad-seaGreen-darken-1;
-@radgrad-label-icon-color: darken(@radgrad-seaGreen-darken-1, 5);
+@radgrad-label-icon-color: @radgrad-white;
 @radgrad-button-textColor: @radgrad-white;
-@radgrad-hover-item-color: @radgrad-dimGrey;
+@radgrad-hover-item-color: @radgrad-white;
 
 /* Inject the palette into the Semantic UI theme. */
 @green            : @radgrad-radGreen;
@@ -89,8 +93,9 @@
 @olive            : darken(@radgrad-radGreen, 5);
 @blue             : @radgrad-seaGreen-darken;
 @lightblue        : @radgrad-seaGreen;
-@yellow           : @fuelGoldColor;
+@yellow           : @radgrad-yellow;
 @orange           : @radgrad-orangeYouRad;
+@grey             : @radgrad-defaultGrey;
 
 /** ICE Colors **/
 /* Earned

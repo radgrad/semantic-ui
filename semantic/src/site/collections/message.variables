@@ -5,3 +5,7 @@
 @warningBoxShadow      : @radgrad-warningBoxShadow;
 @warningTextColor      : @radgrad-warningTextColor;
 @warningHeaderColor    : @radgrad-HeaderColor;
+
+@infoBackgroundColor   : lighten(@radgrad-seaGreen, 25);
+@infoTextColor         : darken(@radgrad-seaGreen, 25);
+@infoBoxShadow         : 0 0 0 1px #63ba9f inset, 0 0 0 0 transparent;
