@@ -1,3 +1,26 @@
 /*******************************
          Site Overrides
 *******************************/
+.radgrad-home-buttons .button > .chevron.circle.right.icon {
+    margin-left: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+.radgrad-home-buttons .button > .hide.icon {
+    margin-right: 0 !important;
+    margin-bottom: 5px !important;
+    margin-left: 1px !important;
+}
+
+.radgrad-home-buttons .button > .chooseSemester .plus.icon {
+    margin-right: 0 !important;
+    margin-bottom: 3px !important;
+    margin-left: 1px;
+}
+
+.radgrad-home-buttons .button > .chooseYear .plus.icon {
+    margin-right: 0 !important;
+    margin-bottom: 3px !important;
+    margin-left: 1px;
+}
+
