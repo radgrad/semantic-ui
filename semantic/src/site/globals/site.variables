@@ -103,15 +103,15 @@
 @iceCompetencyColor : darken(@radgrad-radGreen, 10);
 @iceExperienceColor : darken(@radgrad-orangeYouRad, 10);
 */
-@iceInnovationColor : #52A724;
-@iceCompetencyColor : #1C7F61;
-@iceExperienceColor : #C05E2A;
+@iceInnovationColor : #80AD27;
+@iceCompetencyColor : #224E78;
+@iceExperienceColor : #5C217C;
 
 /* Projected
 @iceInnovationProjColor : lighten(@radgrad-seaGreen, 10);
 @iceCompetencyProjColor : lighten(@radgrad-radGreen, 10);
 @iceExperienceProjColor : lighten(@radgrad-orangeYouRad, 10);
 */
-@iceInnovationProjColor : #94DC6D;
-@iceCompetencyProjColor : #53A78E;
-@iceExperienceProjColor : #FDAA7D;
+@iceInnovationProjColor : #C4EC75;
+@iceCompetencyProjColor : #577EA4;
+@iceExperienceProjColor : #8C58A9;

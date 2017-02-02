@@ -12,6 +12,11 @@ a:hover {
   color: @link-hover-color;
 }
 
+.radgrad-header-number {
+  color: rgba(0,0,0,.6);
+  font-weight: 600;
+}
+
 .radgrad-help {
   padding: 14px 14px 0px 14px !important;
 }

@@ -167,6 +167,10 @@ a {
 a:hover {
   color: #2e6d0c;
 }
+.radgrad-header-number {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
 .radgrad-help {
   padding: 14px 14px 0px 14px !important;
 }
@@ -187,22 +191,22 @@ a:hover {
 
 /* ICE Font and Background Colors */
 .ice-competency-background {
-  background: #1C7F61;
+  background: #224E78;
 }
 .ice-innovation-background {
-  background: #52A724;
+  background: #80AD27;
 }
 .ice-experience-background {
-  background: #C05E2A;
+  background: #5C217C;
 }
 .ice-competency-color {
-  color: #1C7F61 !important;
+  color: #224E78 !important;
 }
 .ice-innovation-color {
-  color: #52A724 !important;
+  color: #80AD27 !important;
 }
 .ice-experience-color {
-  color: #C05E2A !important;
+  color: #5C217C !important;
 }
 
 
@@ -276,55 +280,55 @@ a:hover {
 
 /* Innovation Font Style */
 .radgrad-proj-innov span:nth-of-type(1) {
-  color: #52A724;
+  color: #80AD27;
   font-weight: bold;
 }
 .radgrad-proj-innov span:nth-of-type(2) {
-  color: #94DC6D;
+  color: #C4EC75;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-innov .radgrad-ice-stat > span {
-  color: #52A724 !important;
+  color: #80AD27 !important;
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-innov .radgrad-ice-stat > span {
-  color: #94DC6D;
+  color: #C4EC75;
   font-weight: normal;
 }
 
 /* Competency Font Style */
 .radgrad-proj-comp span:nth-of-type(1) {
-  color: #1C7F61;
+  color: #224E78;
   font-weight: bold;
 }
 .radgrad-proj-comp span:nth-of-type(2) {
-  color: #53A78E;
+  color: #577EA4;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-comp .radgrad-ice-stat > span {
-  color: #1C7F61;
+  color: #224E78;
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-comp .radgrad-ice-stat > span {
-  color: #53A78E;
+  color: #577EA4;
   font-weight: normal;
 }
 
 /* Experience Font Style */
 .radgrad-proj-exp span:nth-of-type(1) {
-  color: #C05E2A;
+  color: #5C217C;
   font-weight: bold;
 }
 .radgrad-proj-exp span:nth-of-type(2) {
-  color: #FDAA7D;
+  color: #8C58A9;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-exp .radgrad-ice-stat > span {
-  color: #C05E2A;
+  color: #5C217C;
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-exp .radgrad-ice-stat > span {
-  color: #FDAA7D;
+  color: #8C58A9;
   font-weight: normal;
 }
 .radgrad-ice .radgrad-ice-circle:nth-of-type(2) {
@@ -1034,25 +1038,25 @@ a:hover {
 }
 .radgrad-ice-circle.radgrad-proj-innov .bar,
 .radgrad-ice-circle.radgrad-proj-innov .fill {
-  border-color: #94DC6D !important;
+  border-color: #C4EC75 !important;
 }
 .radgrad-ice-circle.radgrad-earn-innov .bar,
 .radgrad-ice-circle.radgrad-earn-innov .fill {
-  border-color: #52A724 !important;
+  border-color: #80AD27 !important;
 }
 .radgrad-ice-circle.radgrad-proj-comp .bar,
 .radgrad-ice-circle.radgrad-proj-comp .fill {
-  border-color: #53A78E !important;
+  border-color: #577EA4 !important;
 }
 .radgrad-ice-circle.radgrad-earn-comp .bar,
 .radgrad-ice-circle.radgrad-earn-comp .fill {
-  border-color: #1C7F61 !important;
+  border-color: #224E78 !important;
 }
 .radgrad-ice-circle.radgrad-proj-exp .bar,
 .radgrad-ice-circle.radgrad-proj-exp .fill {
-  border-color: #FDAA7D !important;
+  border-color: #8C58A9 !important;
 }
 .radgrad-ice-circle.radgrad-earn-exp .bar,
 .radgrad-ice-circle.radgrad-earn-exp .fill {
-  border-color: #C05E2A !important;
+  border-color: #5C217C !important;
 }
