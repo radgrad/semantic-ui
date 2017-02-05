@@ -303,12 +303,12 @@
 
 /* Warning */
 .ui.warning.message {
-  background-color: #d05c75 !important;
+  background-color: #d05c75;
   color: #ffffff !important;
 }
 .ui.warning.message,
 .ui.attached.warning.message {
-  box-shadow: #CA4864 !important;
+  box-shadow: #CA4864;
 }
 .ui.warning.message .header {
   color: #ffffff !important;
@@ -348,11 +348,11 @@
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #CA4864 !important;
-  box-shadow: 0px 0px 0px 1px #CA4864 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  color: #CA4864;
+  box-shadow: 0px 0px 0px 1px #CA4864 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
-  color: #c13855 !important;
+  color: #c13855;
 }
 .ui.orange.message {
   background-color: #FFEDDE;

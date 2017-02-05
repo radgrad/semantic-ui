@@ -329,7 +329,7 @@ a.ui.red.header:hover {
   color: #c83151 !important;
 }
 .ui.red.dividing.header {
-  border-bottom: 2px solid #CA4864 !important;
+  border-bottom: 2px solid #CA4864;
 }
 
 /* Inverted */

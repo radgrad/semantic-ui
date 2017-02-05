@@ -35,7 +35,7 @@
 @radgrad-seaGreen-darken-1 : #1B7F61 !important;
 @radgrad-orangeYouRad      : #DA7F4E !important;
 @radgrad-lightOrange       : #C05E2A !important;
-@radgrad-roseRed           : #CA4864 !important;
+@radgrad-roseRed           : #CA4864;
 
 /** SET MENU MARGINS */
 @second-menu-margin: 75px !important;
@@ -98,20 +98,10 @@
 @grey             : @radgrad-defaultGrey;
 
 /** ICE Colors **/
-/* Earned
-@iceInnovationColor : darken(@radgrad-seaGreen, 20);
-@iceCompetencyColor : darken(@radgrad-radGreen, 10);
-@iceExperienceColor : darken(@radgrad-orangeYouRad, 10);
-*/
 @iceInnovationColor : #80AD27;
-@iceCompetencyColor : #224E78;
-@iceExperienceColor : #5C217C;
+@iceCompetencyColor : #26407C;
+@iceExperienceColor : #952263;
 
-/* Projected
-@iceInnovationProjColor : lighten(@radgrad-seaGreen, 10);
-@iceCompetencyProjColor : lighten(@radgrad-radGreen, 10);
-@iceExperienceProjColor : lighten(@radgrad-orangeYouRad, 10);
-*/
-@iceInnovationProjColor : #C4EC75;
-@iceCompetencyProjColor : #577EA4;
-@iceExperienceProjColor : #8C58A9;
+@iceInnovationProjColor : #C5EA7A;
+@iceCompetencyProjColor : #91a1c3;
+@iceExperienceProjColor : #dda1c3;

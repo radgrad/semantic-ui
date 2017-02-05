@@ -282,7 +282,7 @@
 }
 .ui.search.selection > .icon.input > .remove.icon:hover {
   opacity: 1;
-  color: #CA4864 !important;
+  color: #CA4864;
 }
 
 /*--------------

@@ -501,12 +501,12 @@ a.ui.card:hover,
 .ui.red.cards > .card,
 .ui.cards > .red.card,
 .ui.red.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #CA4864, 0px 1px 3px 0px #D4D4D5 !important;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #CA4864, 0px 1px 3px 0px #D4D4D5;
 }
 .ui.red.cards > .card:hover,
 .ui.cards > .red.card:hover,
 .ui.red.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #c83151, 0px 1px 3px 0px #BCBDBD !important;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #c83151, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Orange */

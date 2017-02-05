@@ -499,7 +499,7 @@
 
 /* Red */
 .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #CA4864 !important;
+  border-top: 2px solid #CA4864;
 }
 .ui.inverted.red.segment {
   background-color: #CA4864 !important;

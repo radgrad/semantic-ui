@@ -191,22 +191,22 @@ a:hover {
 
 /* ICE Font and Background Colors */
 .ice-competency-background {
-  background: #224E78;
+  background: #26407C;
 }
 .ice-innovation-background {
   background: #80AD27;
 }
 .ice-experience-background {
-  background: #5C217C;
+  background: #952263;
 }
 .ice-competency-color {
-  color: #224E78 !important;
+  color: #26407C !important;
 }
 .ice-innovation-color {
   color: #80AD27 !important;
 }
 .ice-experience-color {
-  color: #5C217C !important;
+  color: #952263 !important;
 }
 
 
@@ -284,7 +284,7 @@ a:hover {
   font-weight: bold;
 }
 .radgrad-proj-innov span:nth-of-type(2) {
-  color: #C4EC75;
+  color: #C5EA7A;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-innov .radgrad-ice-stat > span {
@@ -292,43 +292,43 @@ a:hover {
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-innov .radgrad-ice-stat > span {
-  color: #C4EC75;
+  color: #C5EA7A;
   font-weight: normal;
 }
 
 /* Competency Font Style */
 .radgrad-proj-comp span:nth-of-type(1) {
-  color: #224E78;
+  color: #26407C;
   font-weight: bold;
 }
 .radgrad-proj-comp span:nth-of-type(2) {
-  color: #577EA4;
+  color: #91a1c3;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-comp .radgrad-ice-stat > span {
-  color: #224E78;
+  color: #26407C;
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-comp .radgrad-ice-stat > span {
-  color: #577EA4;
+  color: #91a1c3;
   font-weight: normal;
 }
 
 /* Experience Font Style */
 .radgrad-proj-exp span:nth-of-type(1) {
-  color: #5C217C;
+  color: #952263;
   font-weight: bold;
 }
 .radgrad-proj-exp span:nth-of-type(2) {
-  color: #8C58A9;
+  color: #dda1c3;
   margin-top: 30px;
 }
 .radgrad-ice.degree .radgrad-earn-exp .radgrad-ice-stat > span {
-  color: #5C217C;
+  color: #952263;
   font-weight: bold;
 }
 .radgrad-ice.degree .radgrad-proj-exp .radgrad-ice-stat > span {
-  color: #8C58A9;
+  color: #dda1c3;
   font-weight: normal;
 }
 .radgrad-ice .radgrad-ice-circle:nth-of-type(2) {
@@ -1038,7 +1038,7 @@ a:hover {
 }
 .radgrad-ice-circle.radgrad-proj-innov .bar,
 .radgrad-ice-circle.radgrad-proj-innov .fill {
-  border-color: #C4EC75 !important;
+  border-color: #C5EA7A !important;
 }
 .radgrad-ice-circle.radgrad-earn-innov .bar,
 .radgrad-ice-circle.radgrad-earn-innov .fill {
@@ -1046,17 +1046,17 @@ a:hover {
 }
 .radgrad-ice-circle.radgrad-proj-comp .bar,
 .radgrad-ice-circle.radgrad-proj-comp .fill {
-  border-color: #577EA4 !important;
+  border-color: #91a1c3 !important;
 }
 .radgrad-ice-circle.radgrad-earn-comp .bar,
 .radgrad-ice-circle.radgrad-earn-comp .fill {
-  border-color: #224E78 !important;
+  border-color: #26407C !important;
 }
 .radgrad-ice-circle.radgrad-proj-exp .bar,
 .radgrad-ice-circle.radgrad-proj-exp .fill {
-  border-color: #8C58A9 !important;
+  border-color: #dda1c3 !important;
 }
 .radgrad-ice-circle.radgrad-earn-exp .bar,
 .radgrad-ice-circle.radgrad-earn-exp .fill {
-  border-color: #5C217C !important;
+  border-color: #952263 !important;
 }
