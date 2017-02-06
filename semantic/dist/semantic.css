@@ -666,6 +666,10 @@ input::selection {
 
 /* Miscellaneous */
 
+.ui.right.floated {
+  float: right;
+}
+
 a {
   color: #38840F;
   font-weight: bold;
@@ -678,6 +682,29 @@ a:hover {
 .radgrad-header-number {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 600;
+}
+
+.radgrad-ice-header {
+  float: right;
+  padding-bottom: 5px;
+}
+
+.radgrad-ice-header .ui.label:nth-child(1) {
+  padding: 0 !important;
+  margin: 0 important;
+  background-color: #80AD27 !important;
+}
+
+.radgrad-ice-header .ui.label:nth-child(2) {
+  padding: 0 important;
+  margin: 0 important;
+  background-color: #26407C !important;
+}
+
+.radgrad-ice-header .ui.label:nth-child(3) {
+  padding: 0 important;
+  margin: 0 5px 0 0important;
+  background-color: #952263 !important;
 }
 
 .radgrad-help {
