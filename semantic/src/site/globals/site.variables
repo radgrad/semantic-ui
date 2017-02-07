@@ -47,9 +47,6 @@
 /* Misc Dictionary */
 @radgrad-secondary-border-width: 4px !important;
 @radgrad-secondary-border-color: @radgrad-radGreen;
-@radgrad-warningBackgroundColor: lighten(@radgrad-roseRed, 5);
-@radgrad-warningBoxShadow      : @radgrad-roseRed;
-@radgrad-warningTextColor      : @radgrad-white;
 @radgrad-HeaderColor           : @radgrad-white;
 @radgrad-button-fontWeight     : 600;
 
