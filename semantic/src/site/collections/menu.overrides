@@ -15,6 +15,28 @@
   color: @radgrad-dimGrey;
 }
 
+/* LOGIN BUTTON */
+#login-buttons-open-change-password, #login-buttons-logout {
+  background: none !important;
+  border-color: #6FBE44 !important;
+  color: #6FBE44 !important;
+  text-transform: uppercase !important;
+  font-size: 0.8rem !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+#login-name-link {
+  color: #6FBE44 !important;
+  font-weight: 600 !important;
+}
+
+.login-close-text {
+  font-size: 1rem !important;
+  color: #38840F !important;
+  font-weight: 600 !important;
+}
+
 /* MENU PROFILE */
 .radgrad-menu-profile {
   font-size: 0.85rem;
@@ -28,10 +50,6 @@
 
 .radgrad-menu-profile .item > .avatar {
   margin-right: 0.8rem;
-}
-
-.radgrad-menu-profile .login-link-text {
-  color: @radgrad-radGreen-darken;
 }
 
 .radgrad-menu-profile .header {
