@@ -16,7 +16,7 @@
 }
 
 /* LOGIN BUTTON */
-#login-buttons-open-change-password, #login-buttons-logout {
+#login-buttons-open-change-password, #login-buttons-logout, #login-buttons-password {
   background: none !important;
   border-color: #6FBE44 !important;
   color: #6FBE44 !important;

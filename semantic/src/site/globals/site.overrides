@@ -80,14 +80,25 @@ a:hover {
   color: @iceCompetencyColor !important;
 }
 
+.ice-competency-proj-color {
+  color: @iceCompetencyProjColor !important;
+}
+
 .ice-innovation-color {
   color: @iceInnovationColor !important;
+}
+
+.ice-innovation-proj-color {
+  color: @iceInnovationProjColor !important;
 }
 
 .ice-experience-color {
   color: @iceExperienceColor !important;
 }
 
+.ice-experience-proj-color {
+  color: @iceExperienceProjColor !important;
+}
 
 /****************************
       GLOBAL ICE CIRCLES
@@ -144,18 +155,13 @@ a:hover {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 15px;
+  top: 13px;
   width: 50px;
   font-size: .40em;
 }
 
-.radgrad-ice.degree .radgrad-ice-stat {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 15px;
-  width: 50px;
-  font-size: .40em;
+.degreeICE .grid .column .radgrad-ice .radgrad-ice-circle .radgrad-ice-stat {
+  top: 15px !important;
 }
 
 .radgrad-ice-stat hr {

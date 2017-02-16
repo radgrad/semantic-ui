@@ -746,12 +746,24 @@ a:hover {
   color: #26407C !important;
 }
 
+.ice-competency-proj-color {
+  color: #91a1c3 !important;
+}
+
 .ice-innovation-color {
   color: #80AD27 !important;
 }
 
+.ice-innovation-proj-color {
+  color: #C5EA7A !important;
+}
+
 .ice-experience-color {
   color: #952263 !important;
+}
+
+.ice-experience-proj-color {
+  color: #dda1c3 !important;
 }
 
 /****************************
@@ -810,18 +822,13 @@ a:hover {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 15px;
+  top: 13px;
   width: 50px;
   font-size: .40em;
 }
 
-.radgrad-ice.degree .radgrad-ice-stat {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 15px;
-  width: 50px;
-  font-size: .40em;
+.degreeICE .grid .column .radgrad-ice .radgrad-ice-circle .radgrad-ice-stat {
+  top: 15px !important;
 }
 
 .radgrad-ice-stat hr {
@@ -1763,7 +1770,7 @@ a:hover {
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #7ec557;
+  background: #6FBE44;
   color: #ffffff !important;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
@@ -1784,7 +1791,7 @@ a:hover {
   -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
   transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
   will-change: '';
-  -webkit-tap-highlight-color: #6FBE44;
+  -webkit-tap-highlight-color: #64ad3c;
 }
 
 /*******************************
@@ -1796,7 +1803,7 @@ a:hover {
 ---------------*/
 
 .ui.button:hover {
-  background-color: #6FBE44;
+  background-color: #64ad3c;
   background-image: none;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
   color: rgba(0, 0, 0, 0.8);
@@ -1811,8 +1818,8 @@ a:hover {
 ---------------*/
 
 .ui.button:focus {
-  background-color: #6FBE44;
-  color: #6FBE44;
+  background-color: #64ad3c;
+  color: #64ad3c;
   background-image: '' !important;
   box-shadow: '' !important;
 }
@@ -2148,7 +2155,7 @@ a:hover {
 .ui.inverted.button.active {
   background: #FFFFFF;
   box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  color: #6FBE44;
+  color: #64ad3c;
 }
 
 /* Active Focus */
@@ -2156,7 +2163,7 @@ a:hover {
 .ui.inverted.button.active:focus {
   background: #DCDDDE;
   box-shadow: 0px 0px 0px 2px #DCDDDE inset !important;
-  color: #6FBE44;
+  color: #64ad3c;
 }
 
 /*-------------------
@@ -23915,7 +23922,8 @@ Floated Menu / Item
 /* LOGIN BUTTON */
 
 #login-buttons-open-change-password,
-#login-buttons-logout {
+#login-buttons-logout,
+#login-buttons-password {
   background: none !important;
   border-color: #6FBE44 !important;
   color: #6FBE44 !important;

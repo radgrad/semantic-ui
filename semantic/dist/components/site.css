@@ -224,11 +224,20 @@ a:hover {
 .ice-competency-color {
   color: #26407C !important;
 }
+.ice-competency-proj-color {
+  color: #91a1c3 !important;
+}
 .ice-innovation-color {
   color: #80AD27 !important;
 }
+.ice-innovation-proj-color {
+  color: #C5EA7A !important;
+}
 .ice-experience-color {
   color: #952263 !important;
+}
+.ice-experience-proj-color {
+  color: #dda1c3 !important;
 }
 
 
@@ -281,17 +290,12 @@ a:hover {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 15px;
+  top: 13px;
   width: 50px;
   font-size: .40em;
 }
-.radgrad-ice.degree .radgrad-ice-stat {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 15px;
-  width: 50px;
-  font-size: .40em;
+.degreeICE .grid .column .radgrad-ice .radgrad-ice-circle .radgrad-ice-stat {
+  top: 15px !important;
 }
 .radgrad-ice-stat hr {
   height: 10px;
