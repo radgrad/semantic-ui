@@ -90,6 +90,10 @@
   border-bottom-color: @radgrad-secondary-border-color !important;
 }
 
+.radgrad-second-menu a.item:active {
+  border-color: @radgrad-secondary-border-color !important;
+}
+
 .ui.vertical.text.menu {
   background-color: @radgrad-BackgroundColor !important;
 }

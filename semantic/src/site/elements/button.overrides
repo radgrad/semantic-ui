@@ -24,3 +24,8 @@
     margin-left: 1px;
 }
 
+.radgrad-home-buttons .button > .unhide .unhide.icon {
+    margin-right: 0 !important;
+    margin-bottom: 5px !important;
+    margin-left: 1px;
+}

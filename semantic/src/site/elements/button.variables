@@ -6,6 +6,7 @@
 @textColor: @radgrad-button-textColor;
 @hoverBackgroundColor: @radgrad-button-hover-background;
 @tapColor: @radgrad-button-hover-background;
+@downBackgroundColor: @radgrad-button-hover-background;
 @focusColor: @radgrad-button-hover-background;
 @basicFontWeight: @radgrad-button-fontWeight;
 @primaryColor: @radgrad-primary-button-background;

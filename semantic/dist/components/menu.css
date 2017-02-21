@@ -2083,6 +2083,9 @@ Floated Menu / Item
   color: #1B7F61 !important;
   border-bottom-color: #6FBE44 !important;
 }
+.radgrad-second-menu a.item:active {
+  border-color: #6FBE44 !important;
+}
 .ui.vertical.text.menu {
   background-color: #f7f7f7 !important;
 }

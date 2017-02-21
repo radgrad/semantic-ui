@@ -84,7 +84,7 @@
 
 .ui.button:active,
 .ui.active.button:active {
-  background-color: #BABBBC;
+  background-color: #64ad3c;
   background-image: '';
   color: rgba(0, 0, 0, 0.9);
   box-shadow: 0px 0px 0px 1px transparent inset, none;
@@ -3465,5 +3465,10 @@
 .radgrad-home-buttons .button > .chooseYear .plus.icon {
   margin-right: 0 !important;
   margin-bottom: 3px !important;
+  margin-left: 1px;
+}
+.radgrad-home-buttons .button > .unhide .unhide.icon {
+  margin-right: 0 !important;
+  margin-bottom: 5px !important;
   margin-left: 1px;
 }
