@@ -120,7 +120,7 @@
 --------------------*/
 
 /* Size Widths */
-@smallRatio: 0.8;
+@smallRatio: 0.5;
 @largeRatio: 1.2;
 
 /* Derived Responsive Sizes */

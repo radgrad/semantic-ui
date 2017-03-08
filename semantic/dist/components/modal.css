@@ -431,26 +431,26 @@
 }
 @media only screen and (min-width: 768px) {
   .ui.small.modal {
-    width: 70.4%;
-    margin: 0em 0em 0em -35.2%;
+    width: 44%;
+    margin: 0em 0em 0em -22%;
   }
 }
 @media only screen and (min-width: 1200px) {
   .ui.small.modal {
-    width: 680px;
-    margin: 0em 0em 0em -340px;
+    width: 425px;
+    margin: 0em 0em 0em -212.5px;
   }
 }
 @media only screen and (min-width: 1300px) {
   .ui.small.modal {
-    width: 720px;
-    margin: 0em 0em 0em -360px;
+    width: 450px;
+    margin: 0em 0em 0em -225px;
   }
 }
 @media only screen and (min-width: 1400px) {
   .ui.small.modal {
-    width: 760px;
-    margin: 0em 0em 0em -380px;
+    width: 475px;
+    margin: 0em 0em 0em -237.5px;
   }
 }
 

@@ -664,6 +664,44 @@ input::selection {
          Site Overrides
 *******************************/
 
+/* Responsive Breakpoints */
+
+@media only screen and (max-width: 767px) {
+  .mobile.hidden,
+  .tablet.only,
+  .small.monitor.only,
+  .large.monitor.only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mobile.only,
+  .tablet.hidden,
+  .small.monitor.only,
+  .large.monitor.only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .mobile.only,
+  .tablet.only,
+  .small.monitor.hidden,
+  .large.monitor.only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mobile.only,
+  .tablet.only,
+  .small.monitor.only,
+  .large.monitor.hidden {
+    display: none !important;
+  }
+}
+
 /* Miscellaneous */
 
 .ui.right.floated {
@@ -23939,6 +23977,11 @@ Floated Menu / Item
   font-weight: 600 !important;
 }
 
+#login-username-label-and-input,
+#login-password-label-and-input {
+  text-align: left !important;
+}
+
 #login-name-link {
   color: #6FBE44 !important;
   font-weight: 600 !important;
@@ -27197,6 +27240,39 @@ a.ui.card:hover,
 /*******************************
     User Variable Overrides
 *******************************/
+
+.radgrad-interest-card .content:nth-child(2) > p {
+  text-indent: 4px;
+  font-size: 0.95em;
+}
+
+.radgrad-interest-card .content:nth-child(3) {
+  text-align: center;
+}
+
+.radgrad-interest-card .content:nth-child(3) > h5 {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+}
+
+.radgrad-interest-card .content:nth-child(3) > span {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.radgrad-interest-card .content:nth-child(3) > span {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.radgrad-interest-card .content:nth-child(3) > .images a .image {
+  margin: 0 2px;
+}
 /*!
  * # Semantic UI 2.2.6 - Comment
  * http://github.com/semantic-org/semantic-ui/
@@ -30524,7 +30600,7 @@ select.ui.dropdown {
 
 @media only screen and (max-width: 767px) {
   .ui.selection.dropdown .menu {
-    max-height: 8.01428571rem;
+    max-height: 10.68571429rem;
   }
 }
 
@@ -30728,7 +30804,7 @@ select.ui.dropdown {
 
 @media only screen and (max-width: 767px) {
   .ui.search.dropdown .menu {
-    max-height: 8.01428571rem;
+    max-height: 10.68571429rem;
   }
 }
 
@@ -32268,29 +32344,29 @@ select.ui.dropdown {
 
 @media only screen and (min-width: 768px) {
   .ui.small.modal {
-    width: 70.4%;
-    margin: 0em 0em 0em -35.2%;
+    width: 44%;
+    margin: 0em 0em 0em -22%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .ui.small.modal {
-    width: 680px;
-    margin: 0em 0em 0em -340px;
+    width: 425px;
+    margin: 0em 0em 0em -212.5px;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   .ui.small.modal {
-    width: 720px;
-    margin: 0em 0em 0em -360px;
+    width: 450px;
+    margin: 0em 0em 0em -225px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .ui.small.modal {
-    width: 760px;
-    margin: 0em 0em 0em -380px;
+    width: 475px;
+    margin: 0em 0em 0em -237.5px;
   }
 }
 

@@ -26,6 +26,10 @@
   font-weight: 600 !important;
 }
 
+#login-username-label-and-input, #login-password-label-and-input {
+  text-align: left !important;
+}
+
 #login-name-link {
   color: #6FBE44 !important;
   font-weight: 600 !important;

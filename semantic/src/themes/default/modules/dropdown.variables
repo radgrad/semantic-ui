@@ -174,7 +174,7 @@
 @selectionMenuTransition: @menuTransition;
 
 /* Responsive */
-@selectionMobileMaxItems: 3;
+@selectionMobileMaxItems: 4;
 @selectionTabletMaxItems: 4;
 @selectionComputerMaxItems: 6;
 @selectionWidescreenMaxItems: 8;

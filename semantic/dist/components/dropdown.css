@@ -425,7 +425,7 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.selection.dropdown .menu {
-    max-height: 8.01428571rem;
+    max-height: 10.68571429rem;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -601,7 +601,7 @@ select.ui.dropdown {
 }
 @media only screen and (max-width: 767px) {
   .ui.search.dropdown .menu {
-    max-height: 8.01428571rem;
+    max-height: 10.68571429rem;
   }
 }
 @media only screen and (min-width: 768px) {

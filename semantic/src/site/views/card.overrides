@@ -1,3 +1,36 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+.radgrad-interest-card .content:nth-child(2) > p {
+    text-indent: 4px;
+    font-size: 0.95em;
+}
+
+.radgrad-interest-card .content:nth-child(3) {
+    text-align: center
+}
+
+.radgrad-interest-card .content:nth-child(3) > h5 {
+    font-size: 0.85rem;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 0;
+}
+
+.radgrad-interest-card .content:nth-child(3) > span {
+    font-size: 0.85rem;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.radgrad-interest-card .content:nth-child(3) > span {
+    font-size: 0.85rem;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.radgrad-interest-card .content:nth-child(3) > .images a .image {
+    margin: 0 2px;
+}
