@@ -38,13 +38,13 @@ Here is a summary of the modifications; follow the links to see the latest defin
   
 ## Installation
   
-If you are downloading this from GitHub, the node_modules directory needs to be built.  I think you can do this with:
+If you are downloading this from GitHub, the node_modules directory needs to be built.  Do this by invoking the following at top-level:
 
 ```sh
 $ npm install semantic-ui --save
 ```
   
-To update to a new release of semantic-ui, try:
+If you already have this around, and want to update to a new release of semantic-ui, try:
 
 ```
 $ npm update
@@ -109,6 +109,22 @@ Building assets
 The install script runs `gulp build` copies dist/semantic.min.css and dist/semantic.min.js to ../../radgrad/app/client/lib/semantic-ui.
 
 So that the icon files can be loaded, the dist/themes/ directory is copied to ../../radgrad/app/public.
+
+## Note from April 2018 update
+
+We started seeing the following error in Meteor after updating to Meteor 1.6.1:
+
+```
+warn: there are some @import rules those are not taking effect as they are required to be in the beginning of the file 
+```
+
+This appears to a result of our custom theme css file (semantic.min.css) doing an import of Google Fonts at the top of its file, but being concatenated with other CSS files by Meteor so that this import ends up in the middle of the jumbo CSS file.
+
+The workaround we are using is to copy semantic.min.css into the public directory, and then import it using a regular link reference in the head element in app/client/main.html.  
+
+The scripts have been updated so you hopefully won't have any problems. 
+
+At this same time, we updated Semantic UI to from 2.2.6 to 2.3.1.
 
 ## How to develop RadGrad theme adjustments?
 
