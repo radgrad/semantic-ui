@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.3.1 - Site
+ * # Semantic UI 2.4.2 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -370,7 +370,7 @@ a:hover {
   left: 0;
   top: 13px;
   width: 50px;
-  font-size: .40em;
+  font-size: 0.4em;
 }
 .degreeICE .grid .column .radgrad-ice .radgrad-ice-circle .radgrad-ice-stat {
   top: 15px !important;
