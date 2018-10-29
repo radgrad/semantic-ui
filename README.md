@@ -126,6 +126,14 @@ The scripts have been updated so you hopefully won't have any problems.
 
 At this same time, we updated Semantic UI to from 2.2.6 to 2.3.1.
 
+## Note from October 2018 update
+
+To facilitate RadGrad2 (React) development, I've rebuilt the theme with an update to Semantic UI 2.4.2.
+
+To avoid introducing problems into the current version of RadGrad, I've not installed this update into RadGrad (yet).
+
+See the dist directory for the updated theme. 
+
 ## How to develop RadGrad theme adjustments?
 
 Here's how we're currently developing the theme for RadGrad. It is based upon an interplay between the radgrad and semantic-ui repositories.
