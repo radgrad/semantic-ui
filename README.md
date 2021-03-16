@@ -1,5 +1,7 @@
 # semantic-ui
 
+**IMPORTANT**: We have moved for Fomantic-UI for RadGrad2.  Please see the fomantic-ui repo for the RadGrad2 theme definitions.
+
 Holds the semantic-ui distribution used to make the custom theme for RadGrad.
 
 There exists an [Atmosphere package for Semantic UI](https://github.com/Semantic-Org/Semantic-UI-Meteor). Unfortunately, as far as I can tell, this package only provides an easy way to install the default themes, and we need a customized theme.
